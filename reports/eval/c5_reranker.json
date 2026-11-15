@@ -1,0 +1,118 @@
+{
+  "component": "c5_reranker",
+  "date": "2026-11-15",
+  "llm_enabled": false,
+  "llm_model": null,
+  "blend_alpha_train": {
+    "0.0": 0.7321,
+    "0.1": 0.7351,
+    "0.2": 0.7257,
+    "0.3": 0.7153,
+    "0.4": 0.7048,
+    "0.5": 0.6788,
+    "0.6": 0.6565,
+    "0.7": 0.6398,
+    "0.8": 0.6298,
+    "0.9": 0.6218,
+    "1.0": 0.5565
+  },
+  "best_alpha": 0.1,
+  "ranking": [
+    {
+      "method": "random (baseline)",
+      "JDs": 61,
+      "nDCG@10": 0.5682,
+      "Spearman (per-JD mean)": 0.0119
+    },
+    {
+      "method": "BM25 score (C4 sparse)",
+      "JDs": 61,
+      "nDCG@10": 0.6589,
+      "Spearman (per-JD mean)": 0.1988
+    },
+    {
+      "method": "Hybrid RRF score (C4)",
+      "JDs": 61,
+      "nDCG@10": 0.6821,
+      "Spearman (per-JD mean)": 0.232
+    },
+    {
+      "method": "Rubric \u00b7 rules (C5)",
+      "JDs": 61,
+      "nDCG@10": 0.5626,
+      "Spearman (per-JD mean)": 0.0557
+    },
+    {
+      "method": "Rubric \u00b7 rules + hybrid tie-break (pipeline before 2026-11-15)",
+      "JDs": 61,
+      "nDCG@10": 0.5982,
+      "Spearman (per-JD mean)": 0.0881
+    },
+    {
+      "method": "PIPELINE (C5 final): 0.1\u00b7rubric + 0.9\u00b7hybrid (\u03b1 from config; best \u03b1 on train = 0.1)",
+      "JDs": 61,
+      "nDCG@10": 0.6887,
+      "Spearman (per-JD mean)": 0.2303
+    }
+  ],
+  "classification": {
+    "rubric_rules_macro_f1": 0.3439,
+    "majority_macro_f1": 0.2184,
+    "train_macro_f1": 0.3423,
+    "thresholds": [
+      0.1625,
+      0.275
+    ],
+    "global_spearman": -0.0093,
+    "mean_score_by_label": {
+      "No Fit": 0.1967,
+      "Potential Fit": 0.2112,
+      "Good Fit": 0.1894
+    }
+  },
+  "per_criterion": [
+    {
+      "criterion": "must_have_skills",
+      "weight": 0.35,
+      "Spearman vs label": 0.0153,
+      "share scored 1": 0.39,
+      "mean": 2.147
+    },
+    {
+      "criterion": "relevant_experience",
+      "weight": 0.25,
+      "Spearman vs label": -0.0142,
+      "share scored 1": 0.7754,
+      "mean": 1.644
+    },
+    {
+      "criterion": "seniority_fit",
+      "weight": 0.1,
+      "Spearman vs label": -0.0137,
+      "share scored 1": 0.6367,
+      "mean": 1.875
+    },
+    {
+      "criterion": "nice_to_have",
+      "weight": 0.1,
+      "Spearman vs label": 0.0189,
+      "share scored 1": 0.4491,
+      "mean": 2.361
+    },
+    {
+      "criterion": "english",
+      "weight": 0.1,
+      "Spearman vs label": -0.0077,
+      "share scored 1": 0.9795,
+      "mean": 1.077
+    },
+    {
+      "criterion": "motivation",
+      "weight": 0.1,
+      "Spearman vs label": NaN,
+      "share scored 1": 1.0,
+      "mean": 1.0
+    }
+  ],
+  "llm": null
+}

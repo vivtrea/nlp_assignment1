@@ -1,0 +1,81 @@
+{
+  "component": "c4_retrieval",
+  "date": "2026-11-15",
+  "llm_enabled": false,
+  "llm_model": null,
+  "rows": [
+    {
+      "method": "random (baseline)",
+      "queries": 61,
+      "nDCG@10": 0.0311,
+      "MRR": 0.1172,
+      "Recall@50": 0.1461,
+      "P@10": 0.023
+    },
+    {
+      "method": "BM25 \u00b7 C1 query (requirements)",
+      "queries": 61,
+      "nDCG@10": 0.0892,
+      "MRR": 0.1922,
+      "Recall@50": 0.2629,
+      "P@10": 0.0934
+    },
+    {
+      "method": "LSA dense \u00b7 C1 query (requirements)",
+      "queries": 61,
+      "nDCG@10": 0.0859,
+      "MRR": 0.1974,
+      "Recall@50": 0.3146,
+      "P@10": 0.0934
+    },
+    {
+      "method": "Hybrid RRF \u00b7 C1 query (requirements)",
+      "queries": 61,
+      "nDCG@10": 0.0955,
+      "MRR": 0.2185,
+      "Recall@50": 0.2848,
+      "P@10": 0.0934
+    },
+    {
+      "method": "BM25 \u00b7 raw JD text",
+      "queries": 61,
+      "nDCG@10": 0.0818,
+      "MRR": 0.1602,
+      "Recall@50": 0.2413,
+      "P@10": 0.0869
+    },
+    {
+      "method": "LSA dense \u00b7 raw JD text",
+      "queries": 61,
+      "nDCG@10": 0.0925,
+      "MRR": 0.21,
+      "Recall@50": 0.2864,
+      "P@10": 0.1
+    },
+    {
+      "method": "Hybrid RRF \u00b7 raw JD text",
+      "queries": 61,
+      "nDCG@10": 0.0981,
+      "MRR": 0.2275,
+      "Recall@50": 0.2706,
+      "P@10": 0.0951
+    },
+    {
+      "method": "C3 (coverage 0.5, role) \u2192 Hybrid \u00b7 C1 query",
+      "queries": 61,
+      "nDCG@10": 0.0857,
+      "MRR": 0.2088,
+      "Recall@50": 0.1572,
+      "P@10": 0.0803
+    },
+    {
+      "method": "C3 (coverage 0.25, role) \u2192 Hybrid \u00b7 C1 query",
+      "queries": 61,
+      "nDCG@10": 0.0917,
+      "MRR": 0.2135,
+      "Recall@50": 0.1881,
+      "P@10": 0.0918
+    }
+  ],
+  "pool": 477
+}

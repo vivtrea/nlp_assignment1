@@ -1,0 +1,211 @@
+"""Profile a tabular dataset for the CRISP-DM Data Understanding phase.
+
+Usage:
+    python .claude/skills/data-understanding/scripts/profile_dataset.py <path> \
+        --name <name> --out reports/data_profiles/<name>.md --json reports/data_profiles/<name>.json
+
+<path> may be a file (.parquet/.csv/.jsonl/.json) or a directory (all such files are
+profiled, one split per file). Output: a markdown profile + a JSON with all numbers.
+No row text is printed beyond short truncated examples.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+from typing import Any
+
+import pandas as pd
+
+SEED = 42
+EXTS = {".parquet", ".csv", ".jsonl", ".json"}
+TEXT_MIN_MEAN_LEN = 60  # mean chars above which an object column counts as free text
+CAT_MAX_UNIQUE = 50
+
+
+def load(path: Path) -> pd.DataFrame:
+    if path.suffix == ".parquet":
+        return pd.read_parquet(path)
+    if path.suffix == ".csv":
+        return pd.read_csv(path)
+    if path.suffix == ".jsonl":
+        return pd.read_json(path, lines=True)
+    return pd.read_json(path)
+
+
+def detect_lang(texts: list[str]) -> dict[str, int]:
+    try:
+        from langdetect import DetectorFactory, detect
+
+        DetectorFactory.seed = 0
+    except ImportError:
+        return {"langdetect-not-installed": len(texts)}
+    counts: dict[str, int] = {}
+    for t in texts:
+        try:
+            lang = detect(t[:1000])
+        except Exception:
+            lang = "unknown"
+        counts[lang] = counts.get(lang, 0) + 1
+    return dict(sorted(counts.items(), key=lambda kv: -kv[1]))
+
+
+def classify_columns(
+    df: pd.DataFrame, label_cols: list[str], text_cols: list[str]
+) -> dict[str, str]:
+    kinds: dict[str, str] = {}
+    for c in df.columns:
+        s = df[c]
+        if c in label_cols:
+            kinds[c] = "categorical"
+        elif c in text_cols:
+            kinds[c] = "text"
+        elif pd.api.types.is_numeric_dtype(s):
+            kinds[c] = "numeric"
+        else:
+            st = s.dropna().astype(str)
+            mean_len = st.str.len().mean() if len(st) else 0
+            nun = st.nunique()
+            if mean_len >= TEXT_MIN_MEAN_LEN:
+                kinds[c] = "text"
+            elif nun <= CAT_MAX_UNIQUE or nun / max(len(st), 1) < 0.05:
+                kinds[c] = "categorical"
+            else:
+                kinds[c] = "id/short-string"
+    return kinds
+
+
+def profile_frame(
+    df: pd.DataFrame, label_cols: list[str], text_cols: list[str]
+) -> dict[str, Any]:
+    kinds = classify_columns(df, label_cols, text_cols)
+    out: dict[str, Any] = {
+        "rows": int(len(df)),
+        "columns": list(map(str, df.columns)),
+        "dtypes": {str(c): str(t) for c, t in df.dtypes.items()},
+        "kinds": kinds,
+        "nulls": {},
+        "empty_strings": {},
+        "duplicate_rows": None,
+        "text": {},
+        "categorical": {},
+        "numeric": {},
+    }
+    hashable = df.copy()
+    for c in hashable.columns:
+        if hashable[c].map(lambda v: isinstance(v, (list, dict))).any():
+            hashable[c] = hashable[c].astype(str)
+    out["duplicate_rows"] = int(hashable.duplicated().sum())
+
+    for c in df.columns:
+        s = df[c]
+        out["nulls"][c] = int(s.isna().sum())
+        if s.dtype == object:
+            out["empty_strings"][c] = int((s.astype(str).str.strip() == "").sum())
+        kind = kinds[c]
+        if kind == "text":
+            st = s.dropna().astype(str)
+            lens = st.str.len()
+            words = st.str.split().str.len()
+            sample = st.sample(min(300, len(st)), random_state=SEED).tolist() if len(st) else []
+            out["text"][c] = {
+                "chars": lens.describe(percentiles=[0.05, 0.25, 0.5, 0.75, 0.95]).round(1).to_dict(),
+                "words_median": float(words.median()) if len(words) else 0.0,
+                "short_lt_50_chars": int((lens < 50).sum()),
+                "duplicate_values": int(st.duplicated().sum()),
+                "language_sample_300": detect_lang(sample),
+            }
+        elif kind == "categorical":
+            vc = s.astype(str).value_counts(dropna=False)
+            top = vc.head(25)
+            out["categorical"][c] = {
+                "n_unique": int(s.nunique(dropna=True)),
+                "top": {str(k): int(v) for k, v in top.items()},
+                "imbalance_ratio_max_min": float(vc.max() / max(vc.min(), 1)),
+            }
+        elif kind == "numeric":
+            out["numeric"][c] = s.describe().round(3).to_dict()
+    return out
+
+
+def md_table(d: dict[str, Any], k: str = "key", v: str = "value") -> str:
+    rows = [f"| {k} | {v} |", "|---|---|"]
+    rows += [f"| {a} | {b} |" for a, b in d.items()]
+    return "\n".join(rows)
+
+
+def to_markdown(name: str, profiles: dict[str, dict[str, Any]], examples: dict[str, list]) -> str:
+    lines = [f"# Data profile: {name}", "", "Generated by `profile_dataset.py` (seed 42). All numbers below are computed, not estimated.", ""]
+    for split, p in profiles.items():
+        lines += [f"## Split `{split}`: {p['rows']:,} rows, {len(p['columns'])} columns", ""]
+        lines += ["| column | dtype | kind | nulls | empty |", "|---|---|---|---|---|"]
+        for c in p["columns"]:
+            lines.append(
+                f"| {c} | {p['dtypes'][c]} | {p['kinds'][c]} | {p['nulls'][c]} | {p['empty_strings'].get(c, '')} |"
+            )
+        lines += ["", f"Duplicate rows: **{p['duplicate_rows']}**", ""]
+        for c, t in p["text"].items():
+            lines += [f"### Text column `{c}`", ""]
+            lines.append(md_table({kk: vv for kk, vv in t["chars"].items()}, "chars stat", "value"))
+            lines += [
+                "",
+                f"- median words: {t['words_median']}",
+                f"- texts shorter than 50 chars: {t['short_lt_50_chars']}",
+                f"- duplicate values: {t['duplicate_values']}",
+                f"- language (sample of 300): {t['language_sample_300']}",
+                "",
+            ]
+        for c, t in p["categorical"].items():
+            lines += [f"### Categorical `{c}` ({t['n_unique']} unique, max/min ratio {t['imbalance_ratio_max_min']:.1f})", ""]
+            lines.append(md_table(t["top"], "value", "count"))
+            lines.append("")
+        for c, t in p["numeric"].items():
+            lines += [f"### Numeric `{c}`", "", md_table(t, "stat", "value"), ""]
+        if examples.get(split):
+            lines += ["### Example rows (5, random_state=42, truncated to 120 chars)", "", "```"]
+            for r in examples[split]:
+                lines.append(json.dumps(r, ensure_ascii=False)[:1500])
+            lines += ["```", ""]
+    return "\n".join(lines)
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("path")
+    ap.add_argument("--name", required=True)
+    ap.add_argument("--out", required=True)
+    ap.add_argument("--json", required=True)
+    ap.add_argument("--label-cols", nargs="*", default=[])
+    ap.add_argument("--text-cols", nargs="*", default=[])
+    ap.add_argument("--sample", type=int, default=0)
+    args = ap.parse_args()
+
+    root = Path(args.path)
+    files = [root] if root.is_file() else sorted(p for p in root.rglob("*") if p.suffix in EXTS)
+    if not files:
+        raise SystemExit(f"No data files under {root}")
+
+    profiles, examples = {}, {}
+    for f in files:
+        df = load(f)
+        split = f.stem if len(files) > 1 or root.is_dir() else "all"
+        if args.sample and len(df) > args.sample:
+            df = df.sample(args.sample, random_state=SEED)
+            split += f" (sample {args.sample})"
+        profiles[split] = profile_frame(df, args.label_cols, args.text_cols)
+        ex = df.sample(min(5, len(df)), random_state=SEED)
+        examples[split] = [
+            {c: (str(v)[:120] if v is not None else None) for c, v in row.items()}
+            for row in ex.to_dict(orient="records")
+        ]
+        print(f"[{args.name}/{split}] rows={len(df):,} cols={len(df.columns)}")
+
+    Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+    Path(args.out).write_text(to_markdown(args.name, profiles, examples))
+    Path(args.json).write_text(json.dumps(profiles, indent=2, default=str))
+    print(f"wrote {args.out} and {args.json}")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,236 @@
+{
+  "train": {
+    "rows": 210250,
+    "columns": [
+      "Position",
+      "Moreinfo",
+      "Looking For",
+      "Highlights",
+      "Primary Keyword",
+      "English Level",
+      "Experience Years",
+      "CV",
+      "CV_lang",
+      "id",
+      "__index_level_0__"
+    ],
+    "dtypes": {
+      "Position": "object",
+      "Moreinfo": "object",
+      "Looking For": "object",
+      "Highlights": "object",
+      "Primary Keyword": "object",
+      "English Level": "object",
+      "Experience Years": "float64",
+      "CV": "object",
+      "CV_lang": "object",
+      "id": "object",
+      "__index_level_0__": "int64"
+    },
+    "kinds": {
+      "Position": "id/short-string",
+      "Moreinfo": "text",
+      "Looking For": "text",
+      "Highlights": "text",
+      "Primary Keyword": "categorical",
+      "English Level": "categorical",
+      "Experience Years": "numeric",
+      "CV": "text",
+      "CV_lang": "categorical",
+      "id": "id/short-string",
+      "__index_level_0__": "numeric"
+    },
+    "nulls": {
+      "Position": 0,
+      "Moreinfo": 0,
+      "Looking For": 108195,
+      "Highlights": 104721,
+      "Primary Keyword": 43,
+      "English Level": 485,
+      "Experience Years": 0,
+      "CV": 0,
+      "CV_lang": 0,
+      "id": 0,
+      "__index_level_0__": 0
+    },
+    "empty_strings": {
+      "Position": 0,
+      "Moreinfo": 0,
+      "Looking For": 0,
+      "Highlights": 0,
+      "Primary Keyword": 0,
+      "English Level": 0,
+      "CV": 0,
+      "CV_lang": 0,
+      "id": 0
+    },
+    "duplicate_rows": 0,
+    "text": {
+      "Moreinfo": {
+        "chars": {
+          "count": 210250.0,
+          "mean": 702.0,
+          "std": 533.0,
+          "min": 1.0,
+          "5%": 145.0,
+          "25%": 319.0,
+          "50%": 538.0,
+          "75%": 915.0,
+          "95%": 1901.0,
+          "max": 2616.0
+        },
+        "words_median": 78.0,
+        "short_lt_50_chars": 1633,
+        "duplicate_values": 94,
+        "language_sample_300": {
+          "en": 299,
+          "fr": 1
+        }
+      },
+      "Looking For": {
+        "chars": {
+          "count": 102055.0,
+          "mean": 163.4,
+          "std": 161.5,
+          "min": 1.0,
+          "5%": 28.0,
+          "25%": 68.0,
+          "50%": 119.0,
+          "75%": 205.0,
+          "95%": 438.0,
+          "max": 2496.0
+        },
+        "words_median": 19.0,
+        "short_lt_50_chars": 15470,
+        "duplicate_values": 3175,
+        "language_sample_300": {
+          "en": 291,
+          "ru": 5,
+          "nl": 2,
+          "es": 1,
+          "sl": 1
+        }
+      },
+      "Highlights": {
+        "chars": {
+          "count": 105529.0,
+          "mean": 321.0,
+          "std": 316.2,
+          "min": 1.0,
+          "5%": 44.0,
+          "25%": 121.0,
+          "50%": 225.0,
+          "75%": 407.0,
+          "95%": 918.0,
+          "max": 2500.0
+        },
+        "words_median": 34.0,
+        "short_lt_50_chars": 6615,
+        "duplicate_values": 493,
+        "language_sample_300": {
+          "en": 294,
+          "fr": 2,
+          "it": 1,
+          "ca": 1,
+          "ru": 1,
+          "no": 1
+        }
+      },
+      "CV": {
+        "chars": {
+          "count": 210250.0,
+          "mean": 944.4,
+          "std": 677.4,
+          "min": 6.0,
+          "5%": 238.0,
+          "25%": 454.0,
+          "50%": 751.0,
+          "75%": 1235.0,
+          "95%": 2340.0,
+          "max": 7372.0
+        },
+        "words_median": 110.0,
+        "short_lt_50_chars": 180,
+        "duplicate_values": 0,
+        "language_sample_300": {
+          "en": 300
+        }
+      }
+    },
+    "categorical": {
+      "Primary Keyword": {
+        "n_unique": 41,
+        "top": {
+          "JavaScript": 33980,
+          "QA": 25089,
+          "Design": 15068,
+          "Project Manager": 12499,
+          "Java": 11463,
+          ".NET": 9388,
+          "Marketing": 8984,
+          "Python": 7588,
+          "PHP": 6947,
+          "QA Automation": 5756,
+          "Other": 5395,
+          "Node.js": 4896,
+          "Recruiter": 4865,
+          "HR": 4776,
+          "Support": 4597,
+          "Business Analyst": 4431,
+          "DevOps": 4120,
+          "Product Manager": 4048,
+          "Sales": 3784,
+          "iOS": 3200,
+          "Android": 3087,
+          "C++": 2981,
+          "Data Science": 2571,
+          "Artist": 2542,
+          "Lead": 2373
+        },
+        "imbalance_ratio_max_min": 790.2325581395348
+      },
+      "English Level": {
+        "n_unique": 6,
+        "top": {
+          "upper": 78146,
+          "intermediate": 64915,
+          "fluent": 43102,
+          "pre": 18197,
+          "basic": 5269,
+          "None": 485,
+          "no_english": 136
+        },
+        "imbalance_ratio_max_min": 574.6029411764706
+      },
+      "CV_lang": {
+        "n_unique": 1,
+        "top": {
+          "en": 210250
+        },
+        "imbalance_ratio_max_min": 1.0
+      }
+    },
+    "numeric": {
+      "Experience Years": {
+        "count": 210250.0,
+        "mean": 3.837,
+        "std": 3.291,
+        "min": 0.0,
+        "25%": 1.0,
+        "50%": 3.0,
+        "75%": 6.0,
+        "max": 11.0
+      },
+      "__index_level_0__": {
+        "count": 210250.0,
+        "mean": 129354.5,
+        "std": 60694.091,
+        "min": 24230.0,
+        "25%": 76792.25,
+        "50%": 129354.5,
+        "75%": 181916.75,
+        "max": 234479.0
+      }
+    }
+  }
+}

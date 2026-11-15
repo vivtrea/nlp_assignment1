@@ -1,0 +1,1513 @@
+job_id,job_title,requirements,candidate_id,candidate_title,years,english,looking_for,cv_excerpt,message,human_fit,human_message_score,system_total_HIDE_WHILE_LABELLING,system_final_HIDE_WHILE_LABELLING,scorer,system_criteria,system_retrieved,message_v2,human_message_score_v2,label_round,system_rank
+89fba33d-b501-53ed-92c1-c213b5380dbe,Junior+/Middle .Net developer,"{""title"":""Junior+/Middle .Net developer"",""role"":"".NET"",""must_have_skills"":["".NET"",""REST API"",""HTML"",""CSS"",""JavaScript"",""Git""],""nice_to_have_skills"":[],""min_years"":2.0,""seniority"":""middle"",""english_level"":""upper"",""domain"":""fintech""}",bbcc611f-ccd2-53d5-82aa-d754d7ebe33d,sitecore .Net developer,10.0,fluent,"I'm looking for an interesting website(preferably, sitecore) or back-end service project where I can apply my knowledge and also learn something new, where's pretty enough of new development/extending existing features. Some support/maintenance is ok for me but not when it's more then, say, 25% of the work.
+I'm good in back-end and business logic, I like to know how system works, how everything is connected, but I'm not so good in front-end development. I know a bit of CSS and JavaScript/Jquery to fix some style a bit or to write some small script to validate something etc, but that's not my strong side.
+Also I'm looking for a friendly team where teammembers can cooperate, discuss tasks/decisions and share the knowledge.","* Successfully passed Sitecore certification
+* Added some of the checkout logic to the store 
+* Wrote a service which routed subscription requests to subscription providers
+* implemented eCommerce tracking for google analytics on corporate website/store
+*implemented solr search on corporate website
+* refactored service which indexed different kinds of sources to solr so that it became less buggy and more robust
+I work as a C# developer for 10 years already.
+I mostly wrote back-end logic and services. Last 3 years I also extended corporate website/store logic in Sitecore.
+C#.Net, ASP.net, MVC,Sitecore, Insite, Solr, NServiceBus, MSMQ, SQL, SQL Server, REST, JSON, ConfluenceAPI (wiki api), google Tag Manager, Cybersource, IIS, JIRA, TFS, git, Bitbucket, SourceTree, 
+a bit of CSS and JS
+I'm l","Hi there,
+
+I came across your profile as sitecore .Net developer with 10 years of experience.
+Your background in .NET, REST API, CSS is exactly what caught my attention.
+In particular, this line stood out: ""Successfully passed Sitecore certification"".
+
+We are hiring for a Junior+/Middle .Net developer.
+The role needs strong .NET, Data Analysis, REST API, HTML.
+You mentioned you are looking for ""I'm looking for an interesting website(preferably, sitecore) or back-end service project where I can apply my knowledge and also learn somet"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,4.0,0.5875,0.2947,rules,must_have_skills=3; relevant_experience=3; seniority_fit=2; nice_to_have=1; english=5; motivation=4,True,"Hi there,
+
+I came across your profile as sitecore .Net developer with 10 years of experience.
+Your background in .NET, REST API, CSS is exactly what caught my attention.
+In particular, this line stood out: ""Successfully passed Sitecore certification"".
+
+We are hiring for a Junior+/Middle .Net developer.
+The role needs strong .NET, REST API, HTML, CSS.
+You mentioned you are looking for ""I'm looking for an interesting website(preferably, sitecore) or back-end service project where I can apply my knowledge and also learn…"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",4.0,1,32.0
+10eb0b51-2d12-5604-bee2-b86ca5502ace,Java Engineer (Real Estate Area),"{""title"":""Java Engineer (Real Estate Area)"",""role"":""Java"",""must_have_skills"":[""Java"",""Spring"",""Kotlin"",""Python"",""REST API"",""PostgreSQL""],""nice_to_have_skills"":[""Docker"",""RabbitMQ"",""Agile"",""Scrum""],""min_years"":3.0,""seniority"":""unknown"",""english_level"":""upper"",""domain"":""real estate""}",249e3b9f-db91-508c-9aaf-cb290a9ca5e7,Middle Back-End Java Developer,4.0,fluent,,"• Pasha Life Hackathon, IBA 1st Regional Hackathon, AzCloud Hackathon 2019 Participant as team lead.
+• Best Software Engineer in Cathedra Award: Won prize for the development of student attendance registration system and for such devices. ASOIU (12/2019)
+• Certificate of English Language Proficiency C1: Aptis certificate for teaching in English language within an academic degree. (09/2020)
+4 years experience as Java back end developer developing microservices using Spring Framework, Docker, Kubernetes, Oracle Postgres and etc., 2 years as teacher teaching Java and its basics. Managing, Leading small team of developers to publish mobile apps using Dart Flutter as front end, Java as backend. High communication and software skills.
+
+Highlighted projects:
+• Led the design and development of Ja","Hi there,
+
+I came across your profile as Middle Back-End Java Developer with 4 years of experience.
+Your background in Java, Spring, Python is exactly what caught my attention.
+In particular, this line stood out: ""Pasha Life Hackathon, IBA 1st Regional Hackathon, AzCloud Hackathon 2019 Participant as team lead"".
+
+We are hiring for a Java Engineer (Real Estate Area).
+The role needs strong Java, Spring, Kotlin, Python.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,3.0,0.675,0.6418,rules,must_have_skills=3; relevant_experience=4; seniority_fit=5; nice_to_have=1; english=5; motivation=1,True,"Hi there,
+
+I came across your profile as Middle Back-End Java Developer with 4 years of experience.
+Your background in Java, Spring, Python is exactly what caught my attention.
+In particular, this line stood out: ""Pasha Life Hackathon, IBA 1st Regional Hackathon, AzCloud Hackathon 2019 Participant as team lead"".
+
+We are hiring for a Java Engineer (Real Estate Area).
+The role needs strong Java, Spring, Kotlin, Python.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,12.0
+89fba33d-b501-53ed-92c1-c213b5380dbe,Junior+/Middle .Net developer,"{""title"":""Junior+/Middle .Net developer"",""role"":"".NET"",""must_have_skills"":["".NET"",""REST API"",""HTML"",""CSS"",""JavaScript"",""Git""],""nice_to_have_skills"":[],""min_years"":2.0,""seniority"":""middle"",""english_level"":""upper"",""domain"":""fintech""}",90a952fb-9aa5-506c-b911-53c948056253,Full Stack .Net Developer,2.0,upper,,"I'm a fast learner Middle .NET developer who wants to solve interesting complex problems and become a better professional. I have 2+ years of professional experience in the Information Technologies (IT) industry. Worked on projects of commercial and business orientation. From pharmacy to warehouse web applications. Also I have two years of experience in Internet advertising, website promotion, media buying. I have experience in studying and working in English.
+
+Languages:, C#, JavaScript, TypeScript, SQL, HTML, CSS.
+Technologies/Frameworks: OOP, Design Patterns, MVC, ASP .NET Core, Angular, WEB API, Collections, TDD, SOLID, Bootstrap, LINQ, Entity Framework.
+Database: MS SQL, MySQL, PostgreSQL.
+Version Control and Tools: Git, GitHub, GitLab, Azure DevOps.
+Soft skills: Time management, fast","Hi there,
+
+I came across your profile as Full Stack .Net Developer with 2 years of experience.
+Your background in .NET, HTML, CSS is exactly what caught my attention.
+In particular, this line stood out: ""I'm a fast learner Middle .NET developer who wants to solve interesting complex problems and become a better professional"".
+
+We are hiring for a Junior+/Middle .Net developer.
+The role needs strong .NET, Data Analysis, REST API, HTML.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,3.0,0.5625,0.9458,rules,must_have_skills=3; relevant_experience=3; seniority_fit=5; nice_to_have=1; english=4; motivation=1,True,"Hi there,
+
+I came across your profile as Full Stack .Net Developer with 2 years of experience.
+Your background in .NET, HTML, CSS is exactly what caught my attention.
+In particular, this line stood out: ""I'm a fast learner Middle .NET developer who wants to solve interesting complex problems and become a better professional"".
+
+We are hiring for a Junior+/Middle .Net developer.
+The role needs strong .NET, REST API, HTML, CSS.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,1.0
+b6e54086-1049-5c27-aeae-8af43ef4f947,Middle/Senior SEO specialist - PBN manager,"{""title"":""Middle/Senior SEO specialist - PBN manager"",""role"":""SEO"",""must_have_skills"":[""SEO"",""HTML"",""CSS"",""WordPress""],""nice_to_have_skills"":[],""min_years"":3.0,""seniority"":""senior"",""english_level"":""upper"",""domain"":null}",ec4e2bd7-aaa0-55a1-845d-ee2190ef0dd2,Seo Specialist,5.0,upper,,"I have work experience in promoting multi pages websites 10k-100k+ pages in niches: Essay, Legal, FinTech (traditional financial markets, crypto, NFTs, blockchain), Tech, E-commerce.
+- I have 5 years experience in promoting multi pages websites 10k-100k+ pages in different niches, Geo: US. UK, DE, AU, UK;
+- Create and implement on-page and off-page SEO strategies;
+- Work with linkbuilders, web-developers, copywriters;
+- Niche & keyword research;
+- Good knowledge of Screaming Frog, Ahrefs, Majestic, GA, GSC, SerpStat, SimilarWeb, SpySerp, Aparser, Hotjar, Similar Web, Netpeack Checker, Surfer, Html, CSS;
+- Website administration, setting up WP admin panel;
+- Linkbuilding;
+- Outreach;
+- Local Seo;
+- PBN;
+- Website optimisation for E-A-T and YMYL factors;
+- Worked with YouTube channels;
+
+
+Lan","Hi there,
+
+I came across your profile as Seo Specialist with 5 years of experience.
+Your background in SEO, HTML, CSS is exactly what caught my attention.
+In particular, this line stood out: ""I have 5 years experience in promoting multi pages websites 10k-100k+ pages in different niches, Geo: US"".
+
+We are hiring for a Middle/Senior SEO specialist - PBN manager.
+The role needs strong SEO, HTML, CSS, WordPress.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,3.0,0.675,0.9778,rules,must_have_skills=4; relevant_experience=4; seniority_fit=5; nice_to_have=3; english=4; motivation=1,True,"Hi there,
+
+I came across your profile as Seo Specialist with 5 years of experience.
+Your background in SEO, HTML, CSS is exactly what caught my attention.
+In particular, this line stood out: ""I have 5 years experience in promoting multi pages websites 10k-100k+ pages in different niches, Geo: US"".
+
+We are hiring for a Middle/Senior SEO specialist - PBN manager.
+The role needs strong SEO, HTML, CSS, WordPress.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,1.0
+b6e54086-1049-5c27-aeae-8af43ef4f947,Middle/Senior SEO specialist - PBN manager,"{""title"":""Middle/Senior SEO specialist - PBN manager"",""role"":""SEO"",""must_have_skills"":[""SEO"",""HTML"",""CSS"",""WordPress""],""nice_to_have_skills"":[],""min_years"":3.0,""seniority"":""senior"",""english_level"":""upper"",""domain"":null}",0f841ebe-2d91-5faa-bb9c-75db3c791adb,Full Stack Marketer,5.0,upper,,"I grew organic traffic from 350 to 84k in 15 months.
+A data-driven marketer with 4+ years of experience. Worked as a Head of Marketing at a B2B SaaS startup for the last 2 years where I created a content plan that reached 84k organic traffic in 15 months, created content briefs, managed a small team of in-house and freelance marketers, managed five-figure PPC campaigns and social media, sent out newsletters and basically did everything related to marketing which helps me make more strategic decisions. As at any startup, I wore several hats and switched between strategy and execution. My main goal was to increase signups by at least 10% every month, therefore growing leads through organic and managing the marketing budget.
+I have proficiency with SEO tools such as Ahrefs, Google Search Cons","Hi there,
+
+I came across your profile as Full Stack Marketer with 5 years of experience.
+Your background in SEO, WordPress is exactly what caught my attention.
+In particular, this line stood out: ""I have proficiency with SEO tools such as Ahrefs, Google Search Console, and Frase"".
+
+We are hiring for a Middle/Senior SEO specialist - PBN manager.
+The role needs strong SEO, HTML, CSS, WordPress.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,3.0,0.5875,0.0,rules,must_have_skills=3; relevant_experience=4; seniority_fit=5; nice_to_have=3; english=4; motivation=1,True,"Hi there,
+
+I came across your profile as Full Stack Marketer with 5 years of experience.
+Your background in SEO, WordPress is exactly what caught my attention.
+In particular, this line stood out: ""I have proficiency with SEO tools such as Ahrefs, Google Search Console, and Frase.io"".
+
+We are hiring for a Middle/Senior SEO specialist - PBN manager.
+The role needs strong SEO, HTML, CSS, WordPress.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,5.0
+f515de49-08e3-5695-bfd6-64b0437743ef,Head of Payment in IGAMING,"{""title"":""Head of Payment in IGAMING"",""role"":""Lead"",""must_have_skills"":[""Team Leadership"",""Statistics"",""Project Management"",""Excel""],""nice_to_have_skills"":[],""min_years"":2.0,""seniority"":""lead"",""english_level"":""no_english"",""domain"":""fintech""}",d052d1d7-9a6d-5876-9efc-783ff008c69b,Business Analyst,5.0,fluent,,"Experience in Business Domains
+•	Maps, geopositioning systems, trackers
+•	Blockchain, cryptocurrencies, centralized and decentralized cryptoexchanges
+•	Stocks and options trading information systems with graphs and analytics
+•	Forex trading and investing
+•	Citation and publication of scientific research artifacts and articles
+•	Integration with BI tools
+
+Project Activities
+− Eliciting requirements: conducting interviews, facilitating workshops with stakeholders, documentation analysis. 
+− Analyzing business processes and workflows. 
+− 3-rd party systems API analysis for integration purposes.
+− Work with API documentation and testing tools (Swagger, Postman).
+− Facilitating meetings with 3-rd party systems officials. 
+− Business processes modeling using UML: use case diagrams, class, activi","Hi there,
+
+I came across your profile as Business Analyst with 5 years of experience.
+Your background in Blockchain, Stakeholder Management, Team Leadership is exactly what caught my attention.
+In particular, this line stood out: ""	Blockchain, cryptocurrencies, centralized and decentralized cryptoexchanges"".
+
+We are hiring for a Head of Payment in IGAMING.
+The role needs strong Blockchain, Statistics, Stakeholder Management, Team Leadership.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",No Fit,2.0,0.5875,0.0,rules,must_have_skills=3; relevant_experience=5; seniority_fit=3; nice_to_have=5; english=5; motivation=1,False,"Hi there,
+
+I came across your profile as Business Analyst with 5 years of experience.
+Your background in Team Leadership is exactly what caught my attention.
+In particular, this line stood out: ""	Stocks and options trading information systems with graphs and analytics"".
+
+We are hiring for a Head of Payment in IGAMING.
+The role needs strong Team Leadership, Statistics, Project Management, Excel.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",2.0,1,
+e9942e51-4ef5-5272-a4b0-4be76ec4e484,Middle/Senior AQA Python - Poland,"{""title"":""Middle/Senior AQA Python - Poland"",""role"":""QA Automation"",""must_have_skills"":[""Python"",""iOS"",""UI/UX"",""Appium"",""REST API""],""nice_to_have_skills"":[],""min_years"":1.0,""seniority"":""senior"",""english_level"":""no_english"",""domain"":""healthcare""}",d486dab6-b5d0-5f6e-83a8-e59b1e895390,QA Lead / QA Manager / Head of QA,10.0,upper,"I don't wont to work with betting systems / projects like 1xBet and so on. I didn't even try that, but I'm not really sure that I want to do that. Also mobile manual testing is pretty routine.","QA team lead and group lead. Was working on different projects like Web and Mobile from estimation stage up to production. Involved in interview process of new comers.
+— 9+ years of experience in Quality Assurance;
+— 3 year of experience in Automated testing (Selenium WebDriver);
+— Solid experience with the SQL Databases;
+— Proven ability to translate functional requirements and use cases into working test plans and test cases;
+— Good experience with the integration testing and API (REST) test automation;
+— Experience with version control systems;
+— Experience with UI test automation (Selenium WebDriver Groovy Geb&Spock)
+— Experience with mobile test automation (IOS/Android using Appium Python Selene);
+— 4+ years of experience in a Leadership role;
+— Strong organizational skills, ability t","Hi there,
+
+I came across your profile as QA Lead / QA Manager / Head of QA with 10 years of experience.
+Your background in Python, iOS, UI/UX is exactly what caught my attention.
+In particular, this line stood out: ""— Experience with mobile test automation (IOS/Android using Appium Python Selene);"".
+
+We are hiring for a Middle/Senior AQA Python - Poland.
+The role needs strong Python, iOS, UI/UX, Appium.
+You mentioned you are looking for ""I don't wont to work with betting systems / projects like 1xBet and so on"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,2.0,0.75,0.9896,rules,must_have_skills=4; relevant_experience=5; seniority_fit=3; nice_to_have=1; english=4; motivation=2,True,"Hi there,
+
+I came across your profile as QA Lead / QA Manager / Head of QA with 10 years of experience.
+Your background in Python, iOS, UI/UX is exactly what caught my attention.
+In particular, this line stood out: ""— Experience with mobile test automation (IOS/Android using Appium Python Selene);"".
+
+We are hiring for a Middle/Senior AQA Python - Poland.
+The role needs strong Python, iOS, UI/UX, Appium.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,1.0
+33236145-447c-54df-83b7-38117911cb24,Product Manager (Card Processing),"{""title"":""Product Manager (Card Processing)"",""role"":""Product Manager"",""must_have_skills"":[],""nice_to_have_skills"":[],""min_years"":2.0,""seniority"":""unknown"",""english_level"":""upper"",""domain"":""fintech""}",0c1882b2-2e15-530d-b620-fb477bbe7ea8,Product manager,9.0,upper,"• Professional Development 
+• Looking for company with clear and adjusted processes","• Opening merchant accounts for high risk merchants
+• Chargebacks, Fraud, Refunds management and proving strategies of improvement
+• Analyzing billing processes and establish best practices, monitoring and implementation new market trends
+• Management of Business Development division in terms of new payment processing partners
+• Close collaboration with numerous Payment Service Providers & Acquirers, their integration
+• Approval rate optimization 
+• Traffic/Payments management
+Payment product manager. E-commerce company 2018 - current
+- research and integration new local PSPs, acquirer banks (cards - and APM); 
+- approve rate optimization;
+- providing anti-chargeback logics to reduce chargeback ratio
+- according to card brands requirements;
+- chargeback disputing;
+- providing A/B testing t","Hi there,
+
+I came across your profile as Product manager with 9 years of experience.
+In particular, this line stood out: ""Traffic/Payments management"".
+
+We are hiring for a Product Manager (Card Processing).
+You mentioned you are looking for ""Professional Development"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,3.0,0.65,0.9727,rules,must_have_skills=3; relevant_experience=5; seniority_fit=2; nice_to_have=5; english=4; motivation=2,True,"Hi there,
+
+I came across your profile as Product manager with 9 years of experience.
+In particular, this line stood out: ""Opening merchant accounts for high risk merchants"".
+
+We are hiring for a Product Manager (Card Processing).
+You mentioned you are looking for ""Looking for company with clear and adjusted processes"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",4.0,1,1.0
+0ed6cf34-b896-5a77-a4f4-0f941fbfc215,HR Manager,"{""title"":""HR Manager"",""role"":""HR"",""must_have_skills"":[],""nice_to_have_skills"":[],""min_years"":1.5,""seniority"":""unknown"",""english_level"":""upper"",""domain"":""healthcare""}",cc97b1d5-3ef6-5b0e-bf30-12a2e28cad9b,HR manager,6.0,upper,Become part of a team of professionals and develop new skills and expertise,"systems of non-material remuneration were developed and implemented, develop an adaptation process for employees of another company after merging with our company
+HR Generalist 2021 - 2023 
+Maintain and improve employee life cycle processes: onboarding, adaptation, engagement retention, and offboarding
+Conducting 1:1 meetings with employees
+Performance review and implementation of individual career development plans Support a full cycle of recruiting in case of hiring
+Participate in the organization of the social and team-building events
+HR Generalist 2016-2020
+Personnel support of employees at onboarding/termination stages Adaptation of new employees of the company
+Conducting an Exit interview, analyzing feedback
+Conducting and maintaining Performance review, 1:1
+Providing reports
+Develop","Hi there,
+
+I came across your profile as HR manager with 6 years of experience.
+In particular, this line stood out: ""Maintain and improve employee life cycle processes: onboarding, adaptation, engagement retention, and offboarding"".
+
+We are hiring for a HR Manager.
+You mentioned you are looking for ""Become part of a team of professionals and develop new skills and expertise"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,4.0,0.55,0.9556,rules,must_have_skills=3; relevant_experience=5; seniority_fit=2; nice_to_have=1; english=4; motivation=2,True,"Hi there,
+
+I came across your profile as HR manager with 6 years of experience.
+In particular, this line stood out: ""Maintain and improve employee life cycle processes: onboarding, adaptation, engagement retention, and offboarding"".
+
+We are hiring for a HR Manager.
+You mentioned you are looking for ""Become part of a team of professionals and develop new skills and expertise"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",4.0,1,1.0
+0ed6cf34-b896-5a77-a4f4-0f941fbfc215,HR Manager,"{""title"":""HR Manager"",""role"":""HR"",""must_have_skills"":[],""nice_to_have_skills"":[],""min_years"":1.5,""seniority"":""unknown"",""english_level"":""upper"",""domain"":""healthcare""}",a28085d4-a92b-5e0b-9c34-8e29b75cece5,HR manager / Recruiter,7.0,upper,"At the moment my focus is on HR positions. I would like to find an opportunity to realize my potential in a large team, where there is a need to work on improving existing processes and implementing new ones.","Development of a team of 3 people to 25 during the year, during which not a single employee left the company.
+Development of the Welcome book for new employees of the company.
+Successfully closing all the vacancies I have had to deal with.
+I'm a well-seasoned professional in the HR field who knows how to find a balance between business and employees needs. My strengths: the ability to adapt quickly to new conditions, stress resistance, the ability and desire to take responsibility, honesty.
+At the moment my focus is on HR positions. I would like to find an opportunity to realize my potential in a large team, where there is a need to work on improving existing processes and implementing new ones.","Hi there,
+
+I came across your profile as HR manager / Recruiter with 7 years of experience.
+In particular, this line stood out: ""Development of a team of 3 people to 25 during the year, during which not a single employee left the company"".
+
+We are hiring for a HR Manager.
+You mentioned you are looking for ""At the moment my focus is on HR positions"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,4.0,0.575,0.0925,rules,must_have_skills=3; relevant_experience=5; seniority_fit=2; nice_to_have=1; english=4; motivation=3,True,"Hi there,
+
+I came across your profile as HR manager / Recruiter with 7 years of experience.
+In particular, this line stood out: ""Development of a team of 3 people to 25 during the year, during which not a single employee left the company"".
+
+We are hiring for a HR Manager.
+You mentioned you are looking for ""At the moment my focus is on HR positions"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",4.0,1,44.0
+faa65d56-5f7c-5a23-ab0f-acde962926b5,Full Stack Developer (BE = 70%),"{""title"":""Full Stack Developer (BE = 70%)"",""role"":""JavaScript"",""must_have_skills"":[""JavaScript"",""Node.js"",""MongoDB"",""Angular"",""React"",""Vue.js""],""nice_to_have_skills"":[""Webpack"",""HTML"",""CSS"",""Microservices""],""min_years"":5.0,""seniority"":""unknown"",""english_level"":""upper"",""domain"":null}",2382c0e3-24ba-57b4-84d3-a5ebaa4bdaa3,Node.js developer,6.0,upper,"I am using Angular, not Angular.js
+Also i can do my best in developing logic and behaviour of application ,but not in markup(HTML/CSS) development.
+Waiting for full stack position or node.js mainly.","Made few projects with Angular, for some of them i did back-end 
+rest api's with node.js, ruby etc
+Front-End- JavaScript, ES6, Typescript, RxJs, Angular, Angular CLI, Redux(ngrx, selectors, entities), HTML5, CSS3, Ionic, Webpack, Unit testing Angular(ngrx also)
+
+Back-End - Node.JS, PostgreSQL, Express.JS, MongoDB, Mongoose, Firebase, Inversify.js, Ruby(but not a lot of exp)
+
+Other - PWA, Service Workers, Docker.
+
+A lot of experience in communication with clients.
+I am using Angular, not Angular.js
+Also i can do my best in developing logic and behaviour of application ,but not in markup(HTML/CSS) development.
+Waiting for full stack position or node.js mainly.","Hi there,
+
+I came across your profile as Node.js developer with 6 years of experience.
+Your background in JavaScript, Node.js, MongoDB is exactly what caught my attention.
+In particular, this line stood out: ""Made few projects with Angular, for some of them i did back-end"".
+
+We are hiring for a Full Stack Developer (BE = 70%).
+The role needs strong Machine Learning, JavaScript, Node.js, MongoDB.
+You mentioned you are looking for ""I am using Angular, not Angular.js"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,2.0,0.8,0.996,rules,must_have_skills=3; relevant_experience=4; seniority_fit=5; nice_to_have=3; english=4; motivation=5,True,"Hi there,
+
+I came across your profile as Node.js developer with 6 years of experience.
+Your background in JavaScript, Node.js, MongoDB is exactly what caught my attention.
+In particular, this line stood out: ""Made few projects with Angular, for some of them i did back-end"".
+
+We are hiring for a Full Stack Developer (BE = 70%).
+The role needs strong JavaScript, Node.js, MongoDB, Angular.
+You mentioned you are looking for ""Waiting for full stack position or node.js mainly"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",4.0,1,1.0
+faa65d56-5f7c-5a23-ab0f-acde962926b5,Full Stack Developer (BE = 70%),"{""title"":""Full Stack Developer (BE = 70%)"",""role"":""JavaScript"",""must_have_skills"":[""JavaScript"",""Node.js"",""MongoDB"",""Angular"",""React"",""Vue.js""],""nice_to_have_skills"":[""Webpack"",""HTML"",""CSS"",""Microservices""],""min_years"":5.0,""seniority"":""unknown"",""english_level"":""upper"",""domain"":null}",bcfe8e5c-0193-506d-99d9-4f9b279d8349,"Senior Front-end developer, Senior Angular 2+ developer, Senior Full-Stack dev",9.0,upper,"US, European, or Australian product companies, role Senior Angular or Full-Stack developer. Full-time remote. I consider relocating positions after the war ended until I can work remotely. I prefare to work with companies directly without staff agencies.","9-years of successful development of SaaS solutions, from e-commerce to medical applications and hotel platforms, mostly  
+using Angular framework, experience working with third-party API like google, facebook, twitter, and connecting google and apple pay to the products. I have more than 800 hours on Upwork freelance platform.
+Hello everyone! I am Vladimir and I am a passionate application developer from Ukraine. 
+--- Proof ---
+First of all to give the proof I am true dev you can check google drive (the link will be given at require). In there the demo video and the app I've created for demonstration my  dev skills, that app called ""template-builder"" there can be created HTML&CSS code using UI and exported in few different ways: Angular component, separate HTML and CSS files or HTML file ","Hi there,
+
+I came across your profile as Senior Front-end developer, Senior Angular 2+ developer, Senior Full-Stack dev with 9 years of experience.
+Your background in JavaScript, Node.js, MongoDB is exactly what caught my attention.
+In particular, this line stood out: ""I write clean code in Javascript, Typescript, I have an eye for great design (pixel perfect), attention to detail"".
+
+We are hiring for a Full Stack Developer (BE = 70%).
+The role needs strong Machine Learning, JavaScript, Node.js, MongoDB.
+You mentioned you are looking for ""US, European, or Australian product companies, role Senior Angular or Full-Stack developer"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,3.0,0.8125,0.9687,rules,must_have_skills=3; relevant_experience=5; seniority_fit=5; nice_to_have=3; english=4; motivation=3,True,"Hi there,
+
+I came across your profile as Senior Front-end developer, Senior Angular 2+ developer, Senior Full-Stack dev with 9 years of experience.
+Your background in JavaScript, Node.js, MongoDB is exactly what caught my attention.
+In particular, this line stood out: ""Webpack / Gulp"".
+
+We are hiring for a Full Stack Developer (BE = 70%).
+The role needs strong JavaScript, Node.js, MongoDB, Angular.
+You mentioned you are looking for ""US, European, or Australian product companies, role Senior Angular or Full-Stack developer"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,2.0
+10eb0b51-2d12-5604-bee2-b86ca5502ace,Java Engineer (Real Estate Area),"{""title"":""Java Engineer (Real Estate Area)"",""role"":""Java"",""must_have_skills"":[""Java"",""Spring"",""Kotlin"",""Python"",""REST API"",""PostgreSQL""],""nice_to_have_skills"":[""Docker"",""RabbitMQ"",""Agile"",""Scrum""],""min_years"":3.0,""seniority"":""unknown"",""english_level"":""upper"",""domain"":""real estate""}",da0cd55a-31df-5999-b96d-1937bebb9a31,Java Developer,3.0,upper,,"Experience:
+Took part in several projects in MedTech (recent) and Telecommunications domains of two companies. Two of them were developed from scratch. Participated as a software engineer in both enterprise product and outsource projects.
+
+- Actively participated in system architecture and design development. Took an active part in all (including agile) technical meeting activities. 
+- Proposed business features and their implementation, developed, built, and tested backend implementations and bug fixes. 
+- Actively worked with different SQL and NoSQL database schemas and queries. 
+- Configured CI/CD pipelines (both Github and Gitlab). 
+- Located existing inefficient architectural problems and proposed solutions to resolve them. 
+- Wrote technical documentation. Actively communicated with ","Hi there,
+
+I came across your profile as Java Developer with 3 years of experience.
+Your background in Java, Spring, Python is exactly what caught my attention.
+In particular, this line stood out: ""Took part in several projects in MedTech (recent) and Telecommunications domains of two companies"".
+
+We are hiring for a Java Engineer (Real Estate Area).
+The role needs strong Java, Spring, Kotlin, Python.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,3.0,0.6375,0.9014,rules,must_have_skills=4; relevant_experience=3; seniority_fit=5; nice_to_have=1; english=4; motivation=1,True,"Hi there,
+
+I came across your profile as Java Developer with 3 years of experience.
+Your background in Java, Spring, Python is exactly what caught my attention.
+In particular, this line stood out: ""Took part in several projects in MedTech (recent) and Telecommunications domains of two companies"".
+
+We are hiring for a Java Engineer (Real Estate Area).
+The role needs strong Java, Spring, Kotlin, Python.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,3.0
+89fba33d-b501-53ed-92c1-c213b5380dbe,Junior+/Middle .Net developer,"{""title"":""Junior+/Middle .Net developer"",""role"":"".NET"",""must_have_skills"":["".NET"",""REST API"",""HTML"",""CSS"",""JavaScript"",""Git""],""nice_to_have_skills"":[],""min_years"":2.0,""seniority"":""middle"",""english_level"":""upper"",""domain"":""fintech""}",c32ea12e-a96f-5d43-8479-4b4f4faedc0c,"Senior .Net Developer (part-time, freelance)",4.0,upper,Interesting and challenging tasks,"1) Automated bets (.NET Core, React)
+2) Bank request flow (.NET, JavaScript, MS SQL)
+3) Bank credit request flow (.NET, Javascript, MS SQL)
+4) Telecom provider internal schedule and billing (.NET, PL/SQL, Mobile (Javascript), Javascript)
+5) ETL & requesting service for data analytics (.NET Core, Azure, Typescript, MS SQL, AAS)
+6) AAA validation and REST API based store (.NET Core, AWS, DynamoDB)
+
+Currently - TL.
+Interesting and challenging tasks","Hi there,
+
+I came across your profile as Senior .Net Developer (part-time, freelance) with 4 years of experience.
+Your background in .NET, Data Analysis, REST API is exactly what caught my attention.
+In particular, this line stood out: ""1) Automated bets (.NET Core, React)"".
+
+We are hiring for a Junior+/Middle .Net developer.
+The role needs strong .NET, Data Analysis, REST API, HTML.
+You mentioned you are looking for ""Interesting and challenging tasks"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,3.0,0.5125,0.8801,rules,must_have_skills=4; relevant_experience=4; seniority_fit=3; nice_to_have=1; english=4; motivation=2,True,"Hi there,
+
+I came across your profile as Senior .Net Developer (part-time, freelance) with 4 years of experience.
+Your background in .NET, REST API, JavaScript is exactly what caught my attention.
+In particular, this line stood out: ""1) Automated bets (.NET Core, React)"".
+
+We are hiring for a Junior+/Middle .Net developer.
+The role needs strong .NET, REST API, HTML, CSS.
+You mentioned you are looking for ""Interesting and challenging tasks"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,3.0
+0ed6cf34-b896-5a77-a4f4-0f941fbfc215,HR Manager,"{""title"":""HR Manager"",""role"":""HR"",""must_have_skills"":[],""nice_to_have_skills"":[],""min_years"":1.5,""seniority"":""unknown"",""english_level"":""upper"",""domain"":""healthcare""}",468a7612-09f1-5a2f-940b-a40f4d9d4510,HR manager,4.0,upper,,"HR manager/NDA( 14 Feb 2019 - now)
+- Preparing and maintaining documentation (contracts, NDA, HandBook etc.)
+- Creating and actialisation HR databases
+- Support all function of the HR Departament (Providing full support to managers and employees on all HR issues)
+- Participation in full employee lifecycle (onboarding, addaptation, offboarding, performance review, 1-1 meetings etc.)
+- Leading the company’s benefits (English courses, insurance, gifts, etc.)
+- Event management (organization of internal and external events like parties, celebrations,team building, hackatons, exstra leisuru activity)
+- Tracked HR issues to resolution and escalated.
+- Assistance in other HR-related issues.","Hi there,
+
+I came across your profile as HR manager with 4 years of experience.
+In particular, this line stood out: ""HR manager/NDA( 14 Feb 2019 - now)"".
+
+We are hiring for a HR Manager.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,3.0,0.4875,0.912,rules,must_have_skills=3; relevant_experience=4; seniority_fit=3; nice_to_have=1; english=4; motivation=1,True,"Hi there,
+
+I came across your profile as HR manager with 4 years of experience.
+In particular, this line stood out: ""HR manager/NDA( 14 Feb 2019 - now)"".
+
+We are hiring for a HR Manager.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,2.0
+610588d1-11cf-58d0-947a-c8e3fa87e6b9,Junior QA Manual,"{""title"":""Junior QA Manual"",""role"":""QA"",""must_have_skills"":[""Jira"",""Azure"",""Agile"",""Scrum""],""nice_to_have_skills"":[""API Testing""],""min_years"":0.0,""seniority"":""junior"",""english_level"":""upper"",""domain"":""travel""}",eb9592df-ccf2-5bcc-bf00-2702805c36df,Junior DevOps,1.5,fluent,Considering remote offers and GMT+3 business hours only.,"I have 1,5 years of experience in Service Desk department accomplishing DevOps related tasks such as cluster maintenance - alerts troubleshooting, patching and vulnerabilities anchor/Trivy scan, cluster components rollouts and Kubernetes and KOPs upgrades on customers' clusters.
+I am continuing to grow knowledge in Kubernetes, Linux, GitHub, Terraform, networking, and seeking a remote job as a Junior DevOps.
+
+Growing knowledge in Kubernetes, Linux, GitHub, Terraform, SQL.
+
+Work experience
+---
+Cloud Service Desk Specialist at ECN
+Labs | 2022-Present
+Cloud-based management platform for insurance
+companies (IaaS, PaaS), Syncier GmbH contractor.
+
+- primary maintenance of AWS, Azure clusters;
+- ticket handling (classifying and prioritizing incoming requests, working on incidents and service req","Hi there,
+
+I came across your profile as Junior DevOps with 1.5 years of experience.
+Your background in Jira, Azure is exactly what caught my attention.
+In particular, this line stood out: ""informing customers according to tickets in Jira"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+You mentioned you are looking for ""Considering remote offers and GMT+3 business hours only"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",No Fit,2.0,0.4625,0.0,rules,must_have_skills=3; relevant_experience=4; seniority_fit=5; nice_to_have=1; english=5; motivation=2,False,"Hi there,
+
+I came across your profile as Junior DevOps with 1.5 years of experience.
+Your background in Jira, Azure is exactly what caught my attention.
+In particular, this line stood out: ""informing customers according to tickets in Jira"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",2.0,1,
+33236145-447c-54df-83b7-38117911cb24,Product Manager (Card Processing),"{""title"":""Product Manager (Card Processing)"",""role"":""Product Manager"",""must_have_skills"":[],""nice_to_have_skills"":[],""min_years"":2.0,""seniority"":""unknown"",""english_level"":""upper"",""domain"":""fintech""}",60028a11-fb09-554b-a74e-0f6c63068110,Project ManagerAccount Manager,2.0,fluent,"No gambling, No part-time.","Successfully built and maintained relationships with 10 clients and 5 stakeholders, resulting in a 15% increase in annual revenue through upselling and cross-selling opportunities.
+Maintained a 95% client retention rate by providing exceptional customer service, promptly addressing client concerns, and consistently exceeding expectations.
+Collaborated with cross-functional teams to resolve customer issues and improve customer experience. 
+Developed and implemented a new onboarding process, resulting in a reduction in onboarding time and increased efficiency.
+WSS.media – Project Manager 09.2022 – 12.2022
+
+– Led multiple SEO/ASO/Analytics projects simultaneously.
+– Created and maintained various types of documentation.
+– Assured project work was delivered on time and on-budget.
+– Coordinated","Hi there,
+
+I came across your profile as Project ManagerAccount Manager with 2 years of experience.
+In particular, this line stood out: ""Maintained a 95% client retention rate by providing exceptional customer service, promptly addressing client concerns, and consistently exceeding expectations"".
+
+We are hiring for a Product Manager (Card Processing).
+You mentioned you are looking for ""No gambling, No part-time"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",No Fit,2.0,0.525,0.1848,rules,must_have_skills=3; relevant_experience=3; seniority_fit=5; nice_to_have=1; english=5; motivation=2,True,"Hi there,
+
+I came across your profile as Project ManagerAccount Manager with 2 years of experience.
+In particular, this line stood out: ""Maintained a 95% client retention rate by providing exceptional customer service, promptly addressing client concerns, and consistently exceeding expectations"".
+
+We are hiring for a Product Manager (Card Processing).
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,37.0
+e9942e51-4ef5-5272-a4b0-4be76ec4e484,Middle/Senior AQA Python - Poland,"{""title"":""Middle/Senior AQA Python - Poland"",""role"":""QA Automation"",""must_have_skills"":[""Python"",""iOS"",""UI/UX"",""Appium"",""REST API""],""nice_to_have_skills"":[],""min_years"":1.0,""seniority"":""senior"",""english_level"":""no_english"",""domain"":""healthcare""}",5c35acbf-6433-5581-ac1a-cda7066b91f7,QA Engineer,2.0,fluent,Team Work,"I Fulfill many Projects in the UK, As a Software Test Analyst at Sky scanner Software Metro Bank and UK largest Communication Company in the UK and the Republic Of Ireland, 
+Responsible for weekly status meetings showing progress and future testing efforts to the QA Manager  
+Scheduled test plans, and created and maintained test results and status reports. ETC
+Strong knowledge of any of SQL Dialects: Microsoft SQL/My SQL etc.
+Experience working in a SaaS and cloud product development team.
+An experienced manual tester with expertise in both functional and non-functional testing (compatibility & user experience testing).
+Solid understanding of using troubleshooting tools like dev tools to analyse web application errors.
+Solid experience in testing Restful API’s using tools like Postman.
+Abi","Hi there,
+
+I came across your profile as QA Engineer with 2 years of experience.
+Your background in UI/UX, REST API, Agile is exactly what caught my attention.
+In particular, this line stood out: ""An experienced manual tester with expertise in both functional and non-functional testing (compatibility & user experience testing)"".
+
+We are hiring for a Middle/Senior AQA Python - Poland.
+The role needs strong Python, iOS, UI/UX, Appium.
+You mentioned you are looking for ""Team Work"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",No Fit,2.0,0.5375,0.0,rules,must_have_skills=3; relevant_experience=4; seniority_fit=3; nice_to_have=1; english=5; motivation=2,False,"Hi there,
+
+I came across your profile as QA Engineer with 2 years of experience.
+Your background in UI/UX, REST API is exactly what caught my attention.
+In particular, this line stood out: ""An experienced manual tester with expertise in both functional and non-functional testing (compatibility & user experience testing)"".
+
+We are hiring for a Middle/Senior AQA Python - Poland.
+The role needs strong Python, iOS, UI/UX, Appium.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",2.0,1,
+b6e54086-1049-5c27-aeae-8af43ef4f947,Middle/Senior SEO specialist - PBN manager,"{""title"":""Middle/Senior SEO specialist - PBN manager"",""role"":""SEO"",""must_have_skills"":[""SEO"",""HTML"",""CSS"",""WordPress""],""nice_to_have_skills"":[],""min_years"":3.0,""seniority"":""senior"",""english_level"":""upper"",""domain"":null}",8d3c698a-2f2e-5ec8-942b-8046ba282abc,SEO Team Lead / Content Team Lead / SEO Manager,9.0,fluent,"I am considering roles of a Content Team Lead, Senior SEO Specialist, or related ones. Based in Prague, Czechia, I am open to relocation opportunities within the EU.","- Building a system of organic content KPIs and ensuring their fulfillment
+- Scaling an SEO content team from 1 to 7 professionals
+- Launching and developing SEO blogs
+- Leveraging AI tools to optimize workflow and costs
+I am an experienced content manager specializing in SEO with 9+ years in the tech industry. I have a successful history of managing teams of up to 7 people, bringing measurable results to our projects. 
+
+With my skills, energy, and drive, I am eager to help businesses achieve their organic traffic goals and thrive in the digital landscape.
+
+SEO/Content experience:
+- Working with projects in Asia, LatAm, and Africa (English and 10+ languages) in a highly-competitive niche
+- Running project SEO/content audits and building data-based strategies
+- Budgeting and reporting on sp","Hi there,
+
+I came across your profile as SEO Team Lead / Content Team Lead / SEO Manager with 9 years of experience.
+Your background in SEO, WordPress is exactly what caught my attention.
+In particular, this line stood out: ""Building a system of organic content KPIs and ensuring their fulfillment"".
+
+We are hiring for a Middle/Senior SEO specialist - PBN manager.
+The role needs strong SEO, HTML, CSS, WordPress.
+You mentioned you are looking for ""I am considering roles of a Content Team Lead, Senior SEO Specialist, or related ones"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,4.0,0.7,0.7328,rules,must_have_skills=3; relevant_experience=5; seniority_fit=3; nice_to_have=3; english=5; motivation=4,True,"Hi there,
+
+I came across your profile as SEO Team Lead / Content Team Lead / SEO Manager with 9 years of experience.
+Your background in SEO, WordPress is exactly what caught my attention.
+In particular, this line stood out: ""Building a system of organic content KPIs and ensuring their fulfillment"".
+
+We are hiring for a Middle/Senior SEO specialist - PBN manager.
+The role needs strong SEO, HTML, CSS, WordPress.
+You mentioned you are looking for ""I am considering roles of a Content Team Lead, Senior SEO Specialist, or related ones"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",4.0,1,2.0
+5edffc0a-3672-5079-867d-c30b48890429,Support Engineer,"{""title"":""Support Engineer"",""role"":""Support"",""must_have_skills"":[""CRM"",""Jira""],""nice_to_have_skills"":[],""min_years"":0.0,""seniority"":""unknown"",""english_level"":""intermediate"",""domain"":null}",9a2d50e6-fa1f-5dad-b4ac-27ec4f6849f1,Customer support specialist,1.0,upper,"I am looking for a long-term partnership with an opportunity to grow as a specialist, enriching my knowledge about the business development industry, improving my hard and soft skills.","Contribute to revenue growth by expanding partners network
+As a custumer supportspecualist:
+
+- Provide Customer Support for the website users
+ Handle customer complaints, provide appropriate solutions and alternatives
+within the time limits;
+ follow up to ensure resolution
+ Follow communication procedures, guidelines and policies
+ Responding promptly to customer inquiries
+ Communicating with customers through various channels (chat/emails)
+ Acknowledging and resolving customer complaints
+ Keeping records of customer interactions, transactions, comments and
+complaints
+ Customer support via email and tickets in Spanish and English
+ Entering data into a CRM, other online tools, and cloud-based platforms
+I am looking for a long-term partnership with an opportunity to grow as a specialist, enri","Hi there,
+
+I came across your profile as Customer support specialist with 1 year of experience.
+Your background in CRM is exactly what caught my attention.
+In particular, this line stood out: ""Entering data into a CRM, other online tools, and cloud-based platforms"".
+
+We are hiring for a Support Engineer.
+The role needs strong CRM, Jira.
+You mentioned you are looking for ""I am looking for a long-term partnership with an opportunity to grow as a specialist, enriching my knowledge about the business development "", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,3.0,0.6375,0.9435,rules,must_have_skills=3; relevant_experience=4; seniority_fit=5; nice_to_have=3; english=5; motivation=2,True,"Hi there,
+
+I came across your profile as Customer support specialist with 1 year of experience.
+Your background in CRM is exactly what caught my attention.
+In particular, this line stood out: ""Entering data into a CRM, other online tools, and cloud-based platforms"".
+
+We are hiring for a Support Engineer.
+The role needs strong CRM, Jira.
+You mentioned you are looking for ""I am looking for a long-term partnership with an opportunity to grow as a specialist, enriching my knowledge about the business development…"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,1.0
+610588d1-11cf-58d0-947a-c8e3fa87e6b9,Junior QA Manual,"{""title"":""Junior QA Manual"",""role"":""QA"",""must_have_skills"":[""Jira"",""Azure"",""Agile"",""Scrum""],""nice_to_have_skills"":[""API Testing""],""min_years"":0.0,""seniority"":""junior"",""english_level"":""upper"",""domain"":""travel""}",1095b1de-d172-569b-ac02-1df8c76dbeea,DevOps,11.0,upper,,"Planning, implementation and maintenance:
+Docker, Monitoring Systems, Linux OS and services, VmWare-Cloud Solutions,  ,Windows Products, Network Equipment.
+Performing workload audit of the High-Load infrastructure systems.
+Planning, implementation, maintenance and administration of: Docker, Swarm.
+ELK-stack, GrayLog, Zabbix, Prometheus.
+Linux - Squid, IPTables, 
+FreeBSD - PF.
+Unix operation systems, and Mikrotik routers, managed by Ansible.
+Maintaining, troubleshooting stacks:
+Centos->Nginx->Web-Sites.
+Windows->GlassFish->Oracle DB->Jira.
+FreeBSD->Nginx->IIS->MSSQL.
+Migrating to MS Azure.
+VmWare IaaS, VMware vRealize Log Insight, Ansible.
+Planning, implementation, maintenance and administration of the VmWare Virtualization System over 150 hosts.
+Debugging VmWare workload.
+Planning, migrati","Hi there,
+
+I came across your profile as DevOps with 10+ years of experience.
+Your background in Jira, Azure is exactly what caught my attention.
+In particular, this line stood out: ""Windows->GlassFish->Oracle DB->Jira"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",No Fit,2.0,0.375,0.0,rules,must_have_skills=3; relevant_experience=3; seniority_fit=1; nice_to_have=1; english=4; motivation=1,False,"Hi there,
+
+I came across your profile as DevOps with 10+ years of experience.
+Your background in Jira, Azure is exactly what caught my attention.
+In particular, this line stood out: ""Docker, Monitoring Systems, Linux OS and services, VmWare-Cloud Solutions,  ,Windows Products, Network Equipment"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",2.0,1,
+faa65d56-5f7c-5a23-ab0f-acde962926b5,Full Stack Developer (BE = 70%),"{""title"":""Full Stack Developer (BE = 70%)"",""role"":""JavaScript"",""must_have_skills"":[""JavaScript"",""Node.js"",""MongoDB"",""Angular"",""React"",""Vue.js""],""nice_to_have_skills"":[""Webpack"",""HTML"",""CSS"",""Microservices""],""min_years"":5.0,""seniority"":""unknown"",""english_level"":""upper"",""domain"":null}",3d02b106-db81-5e5c-a5c4-23f597607557,Senior Full Stack Software Engineer,5.0,upper,"I'm a developer, who is finding a company for getting good experience and opportunities to grow with the company together.","Passed different courses like:
+- EPAM front-end lab
+- T-Shape Software Engineer Mentoring program (AWS)
+Played a role of a mentor on different mentoring programs
+Played a role of a resource manager for a few developers with less seniority level
+I am a Senior Full-Stack JavaScript Engineer with 4.5 years of experience.
+• Solid knowledge and experience in web development, including JavaScript/TypeScript, HTML, CSS, React+Redux, Redux-Saga, and Redux Thunk.
+• Experience in back-end development with NodeJS (NestJS), MongoDB, PostgreSQL, MSSQL, and Cosmos DB.
+• Experience in API optimization
+• Experience with AWS and Microsoft Azure
+• Experience with Docker
+• Experienced in unit testing, E2E API testing, and E2E UI testing with Test Cafe
+• Experienced in Agile methodologies such as Scrum and Ka","Hi there,
+
+I came across your profile as Senior Full Stack Software Engineer with 5 years of experience.
+Your background in JavaScript, Node.js, MongoDB is exactly what caught my attention.
+In particular, this line stood out: ""I am a Senior Full-Stack JavaScript Engineer with 4"".
+
+We are hiring for a Full Stack Developer (BE = 70%).
+The role needs strong Machine Learning, JavaScript, Node.js, MongoDB.
+You mentioned you are looking for ""I'm a developer, who is finding a company for getting good experience and opportunities to grow with the company together"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,2.0,0.55,0.1318,rules,must_have_skills=3; relevant_experience=3; seniority_fit=5; nice_to_have=3; english=4; motivation=2,True,"Hi there,
+
+I came across your profile as Senior Full Stack Software Engineer with 5 years of experience.
+Your background in JavaScript, Node.js, MongoDB is exactly what caught my attention.
+In particular, this line stood out: ""I am a Senior Full-Stack JavaScript Engineer with 4.5 years of experience"".
+
+We are hiring for a Full Stack Developer (BE = 70%).
+The role needs strong JavaScript, Node.js, MongoDB, Angular.
+You mentioned you are looking for ""I'm a developer, who is finding a company for getting good experience and opportunities to grow with the company together"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,42.0
+610588d1-11cf-58d0-947a-c8e3fa87e6b9,Junior QA Manual,"{""title"":""Junior QA Manual"",""role"":""QA"",""must_have_skills"":[""Jira"",""Azure"",""Agile"",""Scrum""],""nice_to_have_skills"":[""API Testing""],""min_years"":0.0,""seniority"":""junior"",""english_level"":""upper"",""domain"":""travel""}",dc6bb95a-f783-52e5-85a2-be607cc6ca75,SRE \ Cloud Engineer \ Infastructure Architect,11.0,fluent,,"MCSE (Server Infrastructure)
+CCNA
+August 2017 - till now: Cloud Infrastructure Engineer\Team Lead
+In my current position, I'm leading a team of highly skilled engineers responsible for running the company's cloud infra in both Azure and AWS (though my engineering expertise comes from Azure mostly). We've built the core components of said infra, including
+	• Identity management - a mix of Active Directory Domain Services, Azure AD and Okta, governed by proper access management procedures and fine-grained permissions models
+	• Software lifecycle\patch management - a process that ensures all new software releases are not only being deployed to PROD in a timely manner but also receive proper testing and validation in lower-tier environments.
+	• Business continuity - everything from fault toler","Hi there,
+
+I came across your profile as SRE \ Cloud Engineer \ Infastructure Architect with 10+ years of experience.
+Your background in Azure, Agile is exactly what caught my attention.
+In particular, this line stood out: ""August 2017 - till now: Cloud Infrastructure Engineer\Team Lead"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",No Fit,2.0,0.4,0.0,rules,must_have_skills=3; relevant_experience=3; seniority_fit=1; nice_to_have=1; english=5; motivation=1,False,"Hi there,
+
+I came across your profile as SRE \ Cloud Engineer \ Infastructure Architect with 10+ years of experience.
+Your background in Azure, Agile is exactly what caught my attention.
+In particular, this line stood out: ""August 2017 - till now: Cloud Infrastructure Engineer\Team Lead"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",2.0,1,
+5edffc0a-3672-5079-867d-c30b48890429,Support Engineer,"{""title"":""Support Engineer"",""role"":""Support"",""must_have_skills"":[""CRM"",""Jira""],""nice_to_have_skills"":[],""min_years"":0.0,""seniority"":""unknown"",""english_level"":""intermediate"",""domain"":null}",a6215a9b-73a8-5eec-bec8-e4ca9705a640,Technical support engineer,5.0,intermediate,"Participation in large projects that I can be proud of.
+Getting experience in communicating with more experienced specialists in this field.","Communication with users and technical support;
+Manual and Web App testing;
+Processing of large amounts of data;
+Work with tracking system Jira;
+HTML5, CSS3;
+Basic knowledge of MySQL;
+Basic knowledge of scripting languages JavaScript and Python;
+Work with REST API (Postman);
+SCRUM / AGILE methodologies;
+Creating and managing README documentation;
+Creating and managing inner Confluence documentation;
+Work with Mailchimp marketing automation platform;
+Work with Adobe PS, Illustrator applications;
+Basic knowledge of Microsoft Excel; 
+CMS: Wordpress, Joomla, Drupal, OpenCart, NetHunt.
+Molto
+Oct 2016 – Dec 2018
+Technical Support Engineer L1
+Communication with users and technical support;
+Work with bug tracking system Jira;
+Creating support documentation in Confluence;
+Manual testing.
+Growing Di","Hi there,
+
+I came across your profile as Technical support engineer with 5 years of experience.
+Your background in Jira is exactly what caught my attention.
+In particular, this line stood out: ""Work with tracking system Jira;"".
+
+We are hiring for a Support Engineer.
+The role needs strong CRM, Jira.
+You mentioned you are looking for ""Participation in large projects that I can be proud of"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,4.0,0.6,0.3106,rules,must_have_skills=3; relevant_experience=5; seniority_fit=2; nice_to_have=3; english=4; motivation=2,True,"Hi there,
+
+I came across your profile as Technical support engineer with 5 years of experience.
+Your background in Jira is exactly what caught my attention.
+In particular, this line stood out: ""Work with tracking system Jira;"".
+
+We are hiring for a Support Engineer.
+The role needs strong CRM, Jira.
+You mentioned you are looking for ""Participation in large projects that I can be proud of"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",4.0,1,29.0
+e9942e51-4ef5-5272-a4b0-4be76ec4e484,Middle/Senior AQA Python - Poland,"{""title"":""Middle/Senior AQA Python - Poland"",""role"":""QA Automation"",""must_have_skills"":[""Python"",""iOS"",""UI/UX"",""Appium"",""REST API""],""nice_to_have_skills"":[],""min_years"":1.0,""seniority"":""senior"",""english_level"":""no_english"",""domain"":""healthcare""}",4d3896fd-6835-5dbf-a25f-7cb5e99fab37,QA Automation Engineer (Python),5.0,intermediate,,"Quality Assurance Engineer with 5 years of experience in software testing. Took part in different products such as e-commerce, IoT, gambling. Have experience In testing web, mobile applications, REST API.
+4 years in manual testing
+1,5+ year automation UI(Python+Selenium); automation API(Python+requests);","Hi there,
+
+I came across your profile as QA Automation Engineer (Python) with 5 years of experience.
+Your background in Python, UI/UX, REST API is exactly what caught my attention.
+In particular, this line stood out: ""Quality Assurance Engineer with 5 years of experience in software testing"".
+
+We are hiring for a Middle/Senior AQA Python - Poland.
+The role needs strong Python, iOS, UI/UX, Appium.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,3.0,0.575,0.9472,rules,must_have_skills=3; relevant_experience=5; seniority_fit=5; nice_to_have=1; english=3; motivation=1,True,"Hi there,
+
+I came across your profile as QA Automation Engineer (Python) with 5 years of experience.
+Your background in Python, UI/UX, REST API is exactly what caught my attention.
+In particular, this line stood out: ""Quality Assurance Engineer with 5 years of experience in software testing"".
+
+We are hiring for a Middle/Senior AQA Python - Poland.
+The role needs strong Python, iOS, UI/UX, Appium.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,3.0
+f515de49-08e3-5695-bfd6-64b0437743ef,Head of Payment in IGAMING,"{""title"":""Head of Payment in IGAMING"",""role"":""Lead"",""must_have_skills"":[""Team Leadership"",""Statistics"",""Project Management"",""Excel""],""nice_to_have_skills"":[],""min_years"":2.0,""seniority"":""lead"",""english_level"":""no_english"",""domain"":""fintech""}",6a726a6f-a4e9-5724-a256-f39edc45a69f,Release Train Engineer | Scrum Master,10.0,fluent,"Innovative product, full of interesting research and discoveries.
+Form management strategic vision with team leads, managers and stakeholders.
+Define and maintain development standards.
+Mentor evolution teams and monitor active projects.
+Seek to enhance the practices with common and custom automation tools.","Forming strategic vision for formalization, standardization, incorporation and improvement of management practices within IT Department of ZAKAZ.UA. Implementation of business agility on top management level with stakeholders, product managers and HRs. I managed the whole cycle of development. I managed over 80 IT experts formed in 15+ teams.
+-----
+Alexander Loktionov has worked for LLC CRYTEK UKRAINE for more than 9 years since 05.07.2010. He started as a contractor on the position of User Interface Programmer, after was moved to Project Manager for Statistics Team position, then has been promoted to the Project Management Office Manager position and finally was switched to manage Network Security Operations Team. He quickly became one of our most valued employees, the person everyone wen","Hi there,
+
+I came across your profile as Release Train Engineer | Scrum Master with 10 years of experience.
+Your background in Statistics, Stakeholder Management, Project Management is exactly what caught my attention.
+In particular, this line stood out: ""Forming strategic vision for formalization, standardization, incorporation and improvement of management practices within IT Department of ZAKAZ.UA"".
+
+We are hiring for a Head of Payment in IGAMING.
+The role needs strong Blockchain, Statistics, Stakeholder Management, Team Leadership.
+You mentioned you are looking for ""Innovative product, full of interesting research and discoveries"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",No Fit,2.0,0.65,0.9435,rules,must_have_skills=3; relevant_experience=5; seniority_fit=5; nice_to_have=1; english=5; motivation=3,True,"Hi there,
+
+I came across your profile as Release Train Engineer | Scrum Master with 10 years of experience.
+Your background in Statistics, Project Management is exactly what caught my attention.
+In particular, this line stood out: ""Forming strategic vision for formalization, standardization, incorporation and improvement of management practices within IT Department of ZAKAZ.UA"".
+
+We are hiring for a Head of Payment in IGAMING.
+The role needs strong Team Leadership, Statistics, Project Management, Excel.
+You mentioned you are looking for ""Innovative product, full of interesting research and discoveries"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",2.0,1,2.0
+5edffc0a-3672-5079-867d-c30b48890429,Support Engineer,"{""title"":""Support Engineer"",""role"":""Support"",""must_have_skills"":[""CRM"",""Jira""],""nice_to_have_skills"":[],""min_years"":0.0,""seniority"":""unknown"",""english_level"":""intermediate"",""domain"":null}",8ed5af47-13ab-51b4-8c5f-6a0cb63cad15,Customer Support / VIP Support Manager,6.0,fluent,It's been more than 5 years since I started working in Support and I'm looking for the company that wants to achieve the best level of customer support that can be a huge advantage over the rivals.,"Established and launched a VIP Support department for one of the products. This initiative enhanced customer satisfaction by providing dedicated and personalized support to high-value clients. Successfully implemented the VIP Support program, contributing to improved customer retention and loyalty.
+
+Developed a user FAQ section for three products utilizing exclusive, unreleased graphical assets, providing a distinctive and standout user experience. 
+
+One of my business clients provides feedback on my team, which brought down the response time to 10 minutes.
+1) Position: Technical Writer
+
+- Writing unique SEO-optimized articles on Windows and Android apps;
+- Writing How-To texts;
+
+2) Position: Customer Support Team lead
+
+- Providing phone and e-support for the collaboration products to end ","Hi there,
+
+I came across your profile as Customer Support / VIP Support Manager with 6 years of experience.
+Your background in Jira is exactly what caught my attention.
+In particular, this line stood out: ""Using Zendesk, Jira, Helpdesk, Redmine, Slack to keep in touch with customers and colleagues;"".
+
+We are hiring for a Support Engineer.
+The role needs strong CRM, Jira.
+You mentioned you are looking for ""It's been more than 5 years since I started working in Support and I'm looking for the company that wants to achieve the best level of custo"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,3.0,0.65,0.9006,rules,must_have_skills=3; relevant_experience=5; seniority_fit=2; nice_to_have=3; english=5; motivation=3,True,"Hi there,
+
+I came across your profile as Customer Support / VIP Support Manager with 6 years of experience.
+Your background in Jira is exactly what caught my attention.
+In particular, this line stood out: ""Using Zendesk, Jira, Helpdesk, Redmine, Slack to keep in touch with customers and colleagues;"".
+
+We are hiring for a Support Engineer.
+The role needs strong CRM, Jira.
+You mentioned you are looking for ""It's been more than 5 years since I started working in Support and I'm looking for the company that wants to achieve the best level of…"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,2.0
+33236145-447c-54df-83b7-38117911cb24,Product Manager (Card Processing),"{""title"":""Product Manager (Card Processing)"",""role"":""Product Manager"",""must_have_skills"":[],""nice_to_have_skills"":[],""min_years"":2.0,""seniority"":""unknown"",""english_level"":""upper"",""domain"":""fintech""}",9cc549cd-574c-5eb3-b012-7337d52e67a8,Project Manager/ Product Manger/ Delivery Manager,5.0,upper,"- career advancement;
+- implementation of new ways in managing projects;
+- good communications in the team;
+- developing high-level products;
+- clear management system in the team;
+- healthful relationships between each team of the company.","5 years experience, 
+Upper-intermediate English, 
+The study of courses, conferences.
+
+Was a speaker on a course for geniusmarketing. 
+Course Name: PM360
+- leading Startups
+- working with Dedicated Team, Time&Materials, Fixed Price models
+- participate in building internal processes
+- taking full responsibility for projects development (hiring new people, communicating bugdets&rates, etc)
+- working with all project management processes (scope management, cost management, schedule management, quality management, etc.)
+- Was a PM at a well-known Fintech product
+- Was a Delivery Manager
+- career advancement;
+- implementation of new ways in managing projects;
+- good communications in the team;
+- developing high-level products;
+- clear management system in the team;
+- healthful relationships bet","Hi there,
+
+I came across your profile as Project Manager/ Product Manger/ Delivery Manager with 5 years of experience.
+In particular, this line stood out: ""Was a PM at a well-known Fintech product"".
+
+We are hiring for a Product Manager (Card Processing).
+You mentioned you are looking for ""career advancement;"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,3.0,0.675,0.8816,rules,must_have_skills=3; relevant_experience=5; seniority_fit=3; nice_to_have=5; english=4; motivation=2,True,"Hi there,
+
+I came across your profile as Project Manager/ Product Manger/ Delivery Manager with 5 years of experience.
+In particular, this line stood out: ""Was a PM at a well-known Fintech product"".
+
+We are hiring for a Product Manager (Card Processing).
+You mentioned you are looking for ""implementation of new ways in managing projects;"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,2.0
+f515de49-08e3-5695-bfd6-64b0437743ef,Head of Payment in IGAMING,"{""title"":""Head of Payment in IGAMING"",""role"":""Lead"",""must_have_skills"":[""Team Leadership"",""Statistics"",""Project Management"",""Excel""],""nice_to_have_skills"":[],""min_years"":2.0,""seniority"":""lead"",""english_level"":""no_english"",""domain"":""fintech""}",dc98066a-9e95-500e-a515-0e22daefcf03,"LEAD PROJECT MANAGER | WEB-DEV, DIGITAL MARKETING, E-COMMERCE",5.0,intermediate,"My key expectations for my new job:
+- The opportunity to lead and manage projects
+- Clear communication and alignment with stakeholders
+- Support from senior management
+- Chance for professional development
+- Competitive compensation and benefits
+- Chance to work on challenging and diverse projects
+- Balance between work and personal life","Throughout my six years of experience as a Product Manager, I have demonstrated a proven ability to lead and manage successful web development, digital marketing, and eCommerce projects. My achievements include the following:
+
+- Timely and budget-conscious project delivery: Leveraging my strong understanding of project management best practices and methodologies, I have consistently delivered projects on time and within budget.
+- Cross-functional team management: Effectively leading and coordinating cross-functional teams, including developers, designers, QA professionals, copywriters, SEO specialists, PPC specialists, content managers, and SMM specialists, to ensure successful project delivery.
+- Positive client relationships: Utilizing my excellent communication and collaboration skills,","Hi there,
+
+I came across your profile as LEAD PROJECT MANAGER | WEB-DEV, DIGITAL MARKETING, E-COMMERCE with 5 years of experience.
+Your background in Stakeholder Management, Team Leadership, Project Management is exactly what caught my attention.
+In particular, this line stood out: ""Clear communication and alignment with stakeholders"".
+
+We are hiring for a Head of Payment in IGAMING.
+The role needs strong Blockchain, Statistics, Stakeholder Management, Team Leadership.
+You mentioned you are looking for ""My key expectations for my new job:"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",No Fit,2.0,0.625,0.9692,rules,must_have_skills=3; relevant_experience=5; seniority_fit=5; nice_to_have=1; english=3; motivation=4,True,"Hi there,
+
+I came across your profile as LEAD PROJECT MANAGER | WEB-DEV, DIGITAL MARKETING, E-COMMERCE with 5 years of experience.
+Your background in Team Leadership, Project Management is exactly what caught my attention.
+In particular, this line stood out: ""My experience and expertise make me an ideal candidate for the Product Manager role in web development, digital marketing, and eCommerce sectors"".
+
+We are hiring for a Head of Payment in IGAMING.
+The role needs strong Team Leadership, Statistics, Project Management, Excel.
+You mentioned you are looking for ""The opportunity to lead and manage projects"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",2.0,1,1.0
+10eb0b51-2d12-5604-bee2-b86ca5502ace,Java Engineer (Real Estate Area),"{""title"":""Java Engineer (Real Estate Area)"",""role"":""Java"",""must_have_skills"":[""Java"",""Spring"",""Kotlin"",""Python"",""REST API"",""PostgreSQL""],""nice_to_have_skills"":[""Docker"",""RabbitMQ"",""Agile"",""Scrum""],""min_years"":3.0,""seniority"":""unknown"",""english_level"":""upper"",""domain"":""real estate""}",d6431d00-0756-5f57-98fc-2257e218292d,Java Developer,5.0,fluent,,"07.2021 – 01.2022 Java Coach at Hillel IT School.
+
+10.2020 Oracle Certified Professional: Java SE 11 Developer 
+07.2018 Oracle Certified Professional, Java SE 8 Programmer 
+09.2017 Oracle Certified Associate, Java SE 8 Programmer
+
+English IELTS exam, overall band score: 7.5
+01.2021 – present Backend Developer at IVIA. Development of IVIA 2.0
+Cloud-Based Freight Marketplace. This is a powerful logistics management tool that provides
+shipper with visual reports, dashboard and all the required data to reduce supply chain costs.
+Technologies: Java 15, Spring, Docker, Kubernetres, Kafka, AWS
+DB: PostgreSQL + Liquibase, Redis
+Tools: Git, Jira, Jenkins, Maven, Kibana, Jaeger, Sonar
+Duties:
+- Development and maintenance of microservices based on Spring Boot and Kafka
+- Implementation of ideas from","Hi there,
+
+I came across your profile as Java Developer with 5 years of experience.
+Your background in Java, Spring, REST API is exactly what caught my attention.
+In particular, this line stood out: ""07.2021 – 01.2022 Java Coach at Hillel IT School"".
+
+We are hiring for a Java Engineer (Real Estate Area).
+The role needs strong Java, Spring, Kotlin, Python.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,3.0,0.65,0.9393,rules,must_have_skills=4; relevant_experience=4; seniority_fit=3; nice_to_have=1; english=5; motivation=1,True,"Hi there,
+
+I came across your profile as Java Developer with 5 years of experience.
+Your background in Java, Spring, REST API is exactly what caught my attention.
+In particular, this line stood out: ""Technologies: Java 15, Spring, Docker, Kubernetres, Kafka, AWS"".
+
+We are hiring for a Java Engineer (Real Estate Area).
+The role needs strong Java, Spring, Kotlin, Python.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,1,2.0
+89fba33d-b501-53ed-92c1-c213b5380dbe,Junior+/Middle .Net developer,"{""title"":""Junior+/Middle .Net developer"",""role"":"".NET"",""must_have_skills"":["".NET"",""REST API"",""HTML"",""CSS"",""JavaScript"",""Git""],""nice_to_have_skills"":[],""min_years"":2.0,""seniority"":""middle"",""english_level"":""upper"",""domain"":""fintech""}",be108729-4b97-50ab-8abe-d2003feebbf8,Full-Stack .Net Developer,7.0,upper,,"Proficient in analyzing, designing, and developing complex business applications, including client/server and n-tier distributed applications. Strong technical expertise in using technologies like Microsoft .NET Framework, .Net Core, ASP.NET, Entity Framework, CSS, JavaScript, and HTML. Have strong background in both front-end and back-end development of web applications. Strong SQL Database design and development experience.","Hi there,
+
+I came across your profile as Full-Stack .Net Developer with 7 years of experience.
+Your background in .NET, HTML, CSS is exactly what caught my attention.
+In particular, this line stood out: ""Proficient in analyzing, designing, and developing complex business applications, including client/server and n-tier distributed applications"".
+
+We are hiring for a Junior+/Middle .Net developer.
+The role needs strong .NET, REST API, HTML, CSS.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,3.0,0.6375,0.8875,,,True,"Hi there,
+
+I came across your profile as Full-Stack .Net Developer with 7 years of experience.
+Your background in .NET, HTML, CSS is exactly what caught my attention.
+In particular, this line stood out: ""Proficient in analyzing, designing, and developing complex business applications, including client/server and n-tier distributed applications"".
+
+We are hiring for a Junior+/Middle .Net developer.
+The role needs strong .NET, REST API, HTML, CSS.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,2,2.0
+10eb0b51-2d12-5604-bee2-b86ca5502ace,Java Engineer (Real Estate Area),"{""title"":""Java Engineer (Real Estate Area)"",""role"":""Java"",""must_have_skills"":[""Java"",""Spring"",""Kotlin"",""Python"",""REST API"",""PostgreSQL""],""nice_to_have_skills"":[""Docker"",""RabbitMQ"",""Agile"",""Scrum""],""min_years"":3.0,""seniority"":""unknown"",""english_level"":""upper"",""domain"":""real estate""}",c201c155-77f3-5550-b5f0-9afdc3d891ee,Senior Software Engineer,7.0,upper,,"Contributing to open-source libraries.
+Led projects to successful completion.
+Having more than 7 years of professional experience in developing software using Java and related technologies. Experience in leading development team and designing software architecture.
+
+Domains: E-commerce, Retail, Security. 
+
+General responsibilities:
+- Feature analysis, implementation and delivery to production
+- Covering code with unit/functional/integration tests
+- Code review and mentoring
+- Collaboration with TA/TL/PO/PM/DM/BA
+- Creating and maintaining technical documentations
+- Contributing/creating from scratch technical designs for the new functionality
+- L3 support
+- Conducting demo sessions
+
+Strengs:
+- Great communication skills, analytical thinking and problem solving skills
+- Hard-worker
+- Quick-","Hi there,
+
+I came across your profile as Senior Software Engineer with 7 years of experience.
+Your background in Java, Spring, REST API is exactly what caught my attention.
+In particular, this line stood out: ""Having more than 7 years of professional experience in developing software using Java and related technologies"".
+
+We are hiring for a Java Engineer (Real Estate Area).
+The role needs strong Java, Spring, Kotlin, Python.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,3.0,0.6375,0.9524,,,True,"Hi there,
+
+I came across your profile as Senior Software Engineer with 7 years of experience.
+Your background in Java, Spring, REST API is exactly what caught my attention.
+In particular, this line stood out: ""Having more than 7 years of professional experience in developing software using Java and related technologies"".
+
+We are hiring for a Java Engineer (Real Estate Area).
+The role needs strong Java, Spring, Kotlin, Python.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,2,1.0
+b6e54086-1049-5c27-aeae-8af43ef4f947,Middle/Senior SEO specialist - PBN manager,"{""title"":""Middle/Senior SEO specialist - PBN manager"",""role"":""SEO"",""must_have_skills"":[""SEO"",""HTML"",""CSS"",""WordPress""],""nice_to_have_skills"":[],""min_years"":3.0,""seniority"":""senior"",""english_level"":""upper"",""domain"":null}",73e6f292-e6b4-5b02-9aff-3183612dda56,PBN Manager,5.0,upper,,"Successfully managed a team of 5 content creators and link builders. Worked in popular niches, with a successful track record in the gambling industry. Experienced in creating PBNs for clients in Americas, Europe, Australia, and Africa, and knowledgeable in registering forbidden domains and domains that require local authority.
+A skilled Middle PBN Manager with 5 years of experience in the industry. Proficient in HTML, CSS, Photoshop, and domain management tools such as ExpiredDomains, Spamzilla, and Domcop. Experienced in dropcatching domains, searching for cheap auction domains, and automating domain search processes. Adept in using tools such as Ahrefs, Majestic, Semrush, Serpstat, Screaming Frog, and Netpeak Checker/Netpeak Spider. Successfully managed a team of 5 content creators and ","Hi there,
+
+I came across your profile as PBN Manager with 5 years of experience.
+Your background in SEO, HTML, CSS is exactly what caught my attention.
+In particular, this line stood out: ""Previously worked at PBNGO as a Content Manager and Junior SEO, then moved to Links Stream as a Content Manager and PBN Manager"".
+
+We are hiring for a Middle/Senior SEO specialist - PBN manager.
+The role needs strong SEO, HTML, CSS, WordPress.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,3.0,0.675,0.719,,,True,"Hi there,
+
+I came across your profile as PBN Manager with 5 years of experience.
+Your background in SEO, HTML, CSS is exactly what caught my attention.
+In particular, this line stood out: ""Previously worked at PBNGO as a Content Manager and Junior SEO, then moved to Links Stream as a Content Manager and PBN Manager"".
+
+We are hiring for a Middle/Senior SEO specialist - PBN manager.
+The role needs strong SEO, HTML, CSS, WordPress.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,2,3.0
+f515de49-08e3-5695-bfd6-64b0437743ef,Head of Payment in IGAMING,"{""title"":""Head of Payment in IGAMING"",""role"":""Lead"",""must_have_skills"":[""Team Leadership"",""Statistics"",""Project Management"",""Excel""],""nice_to_have_skills"":[],""min_years"":2.0,""seniority"":""lead"",""english_level"":""no_english"",""domain"":""fintech""}",70d36ba3-e10e-5e64-9240-a30553684525,Project Manager,9.0,upper,"Seeking a project manager position, ideally at a senior level, but open to other opportunities as well. Bringing a wealth of experience in project and operations management, along with a strong track record of successful project execution, team leadership, and process optimization. Certified in PMP® and ICP-APM®, and equipped with Lean Six Sigma White Belt skills, I am poised to drive excellence in project delivery and contribute to organizational success.","• Pioneered portfolio-level management and reporting within an outstaffing company (600+ FTEs), overseeing a team of up to 5 managers to ensure optimal performance and strategic alignment.
+
+• Successfully drove agile transformation within a law company, resulting in nearly doubling sales, tripling the percentage of profitable projects (from 25% to 75%), fostering improved communication company-wide, implementing effective workload distribution to mitigate overtime, and introducing a unified ticket system (Jira) across all departments and projects.
+
+• Innovated and implemented a proprietary Scaled Agile framework for a US product company, leading to a halved Time-To-Market for new features, a 70% reduction in technological debt, and enhanced release predictability.
+
+• Founded and served as ","Hi there,
+
+I came across your profile as Project Manager with 9 years of experience.
+Your background in Team Leadership, Project Management is exactly what caught my attention.
+In particular, this line stood out: ""I excel in people management – from recruitment and hiring to assessments and terminations"".
+
+We are hiring for a Head of Payment in IGAMING.
+The role needs strong Team Leadership, Statistics, Project Management, Excel.
+You mentioned you are looking for ""Seeking a project manager position, ideally at a senior level, but open to other opportunities as well"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",No Fit,2.0,0.65,0.865,,,True,"Hi there,
+
+I came across your profile as Project Manager with 9 years of experience.
+Your background in Team Leadership, Project Management is exactly what caught my attention.
+In particular, this line stood out: ""I excel in people management – from recruitment and hiring to assessments and terminations"".
+
+We are hiring for a Head of Payment in IGAMING.
+The role needs strong Team Leadership, Statistics, Project Management, Excel.
+You mentioned you are looking for ""Seeking a project manager position, ideally at a senior level, but open to other opportunities as well"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",2.0,2,3.0
+e9942e51-4ef5-5272-a4b0-4be76ec4e484,Middle/Senior AQA Python - Poland,"{""title"":""Middle/Senior AQA Python - Poland"",""role"":""QA Automation"",""must_have_skills"":[""Python"",""iOS"",""UI/UX"",""Appium"",""REST API""],""nice_to_have_skills"":[],""min_years"":1.0,""seniority"":""senior"",""english_level"":""no_english"",""domain"":""healthcare""}",76b19c4c-9dd4-5e1f-85b7-5cc32d6c218e,Automation QA Engineer,2.0,upper,,"• AWS Cloud Practitioner certification
+• Conduction of two internal tech talks (topics: test automation tools)
+Automation Quality Assurance Engineer with 2 years of experience in web (UI/API) and mobile test automation.
+ 
+Responsibilities: 
+• Designing, performing and maintaining automation tests
+(web and mobile (Android and iOS) applications)
+• Creating test documentation
+• Reporting defects and collaborating with dev teams to resolve them
+
+Languages: Java (main one), Python, JavaScript
+Frameworks and tools: Selenium WebDriver, Selenide, REST-Assured, TestNG/JUnit, Maven, Appium, Pytest, Postman, Charles Proxy, Cypress, Playwright
+CI/CD: Jenkins; VCS: Git
+OS: Windows, MacOS, Linux","Hi there,
+
+I came across your profile as Automation QA Engineer with 2 years of experience.
+Your background in Python, iOS, UI/UX is exactly what caught my attention.
+In particular, this line stood out: ""Languages: Java (main one), Python, JavaScript"".
+
+We are hiring for a Middle/Senior AQA Python - Poland.
+The role needs strong Python, iOS, UI/UX, Appium.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,3.0,0.6625,0.9697,,,True,"Hi there,
+
+I came across your profile as Automation QA Engineer with 2 years of experience.
+Your background in Python, iOS, UI/UX is exactly what caught my attention.
+In particular, this line stood out: ""Languages: Java (main one), Python, JavaScript"".
+
+We are hiring for a Middle/Senior AQA Python - Poland.
+The role needs strong Python, iOS, UI/UX, Appium.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,2,2.0
+33236145-447c-54df-83b7-38117911cb24,Product Manager (Card Processing),"{""title"":""Product Manager (Card Processing)"",""role"":""Product Manager"",""must_have_skills"":[],""nice_to_have_skills"":[],""min_years"":2.0,""seniority"":""unknown"",""english_level"":""upper"",""domain"":""fintech""}",fc4f8ed2-e51b-5971-a4c8-e1b3c62bf7e1,Junior Product Manager,2.5,upper,"Unfortunately, the option of working ""only in the office"" does not suit me at the moment, but I am okay with the hybrid option :)","I embarked on my career journey in a support role, working as a support agent. Through dedication and hard work, I gradually progressed within the company and eventually assumed the position of Team Lead, leading a team of support agents.
+
+Seeking new challenges, I transitioned to a role as an Integration Manager in an IT company that specialized in gambling game provision. This position allowed me to utilize my strong communication skills effectively. As the intermediary between our team and clients, I managed the entire integration process, starting from its inception to the final production phase.
+
+Later, I had the privilege of exploring the other side of the industry by joining another company where I had to work with a full-fledged online casino, as a Product Manager. Within the compa","Hi there,
+
+I came across your profile as Junior Product Manager with 2.5 years of experience.
+In particular, this line stood out: ""I embarked on my career journey in a support role, working as a support agent"".
+
+We are hiring for a Product Manager (Card Processing).
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,2.0,0.45,0.8698,,,True,"Hi there,
+
+I came across your profile as Junior Product Manager with 2.5 years of experience.
+In particular, this line stood out: ""I embarked on my career journey in a support role, working as a support agent"".
+
+We are hiring for a Product Manager (Card Processing).
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",2.0,2,3.0
+0ed6cf34-b896-5a77-a4f4-0f941fbfc215,HR Manager,"{""title"":""HR Manager"",""role"":""HR"",""must_have_skills"":[],""nice_to_have_skills"":[],""min_years"":1.5,""seniority"":""unknown"",""english_level"":""upper"",""domain"":""healthcare""}",742b7e87-6309-5db0-a1a3-18bce5833381,Chief HR Officer,7.0,fluent,"I ll be happy to be a part of:
+- partnership and equality environment with great professionals;
+- transparency and trust about where we are now as an organization and what we are expecting in the future;
+- flexibility to accept potential new visions/practices/improvements in service and scalability in everything we do together;
+- new challenges bring great achievements and new expertise, I love challenges! :)","Helpware: Director of HR, EMEA
+- Created process flow for new location launch: Albania, Poland, Georgia, and Uganda in 2022;
+- 95% operation delivery for Ukrainian location during 2022 (500 employees);
+- Supported external Company Acquisition process in the amount of 700 people in total 3 weeks timeline with voluntary attrition <3%;
+- Supported smooth transfer from old HRIS (Rippling) to new HRIS (BambooHR) in terms of 1 month;
+- Created Global HRIS Standards of HRIS usage;
+- Supported HR matters materials for the due diligence process with successful results.
+
+Techiia Holding: Chief HR Officer
+- Techiia in TOP 5 “Innovation in HR” by Business Magazine. 
+- Built centralized internal Recruitment: 220 vacancies/year closed in a team of 6 recruiters, 1.2% conversion of candidates in a funnel,","Hi there,
+
+I came across your profile as Chief HR Officer with 7 years of experience.
+In particular, this line stood out: ""Helpware: Director of HR, EMEA"".
+
+We are hiring for a HR Manager.
+You mentioned you are looking for ""partnership and equality environment with great professionals;"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,3.0,0.575,0.8156,,,True,"Hi there,
+
+I came across your profile as Chief HR Officer with 7 years of experience.
+In particular, this line stood out: ""Helpware: Director of HR, EMEA"".
+
+We are hiring for a HR Manager.
+You mentioned you are looking for ""partnership and equality environment with great professionals;"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,2,3.0
+faa65d56-5f7c-5a23-ab0f-acde962926b5,Full Stack Developer (BE = 70%),"{""title"":""Full Stack Developer (BE = 70%)"",""role"":""JavaScript"",""must_have_skills"":[""JavaScript"",""Node.js"",""MongoDB"",""Angular"",""React"",""Vue.js""],""nice_to_have_skills"":[""Webpack"",""HTML"",""CSS"",""Microservices""],""min_years"":5.0,""seniority"":""unknown"",""english_level"":""upper"",""domain"":null}",448dbc4d-201d-513a-aa55-a98096475e1b,Senior Front-End Angular UI Developer,10.0,upper,"Remote only! 
+Long-Term & Full Time","Co-founder in a startup with several active clients.
+Hi there!
+
+I’m a JavaScript/TypeScript Full Stack web developer with 10+ years of commercial experience and a Co-founder in a startup with several active clients.
+
+My background includes:
+3+ years of game developing with a 3 released applications as a result
+7+ years of working with customers from USA
+several business trips to USA
+
+Note: I work in Eastern European Time zone (GMT+2).
+
+Expertise in:
+architecture design
+applications development from the scratch
+team management
+
+Top Skills:
+Angular 4 - Angular 11 / NgRx / Angular Material
+AngularJS
+Node.js / Nest.js
+JavaScript / ES6 / Typescript / Dart / PHP / Lua
+MEAN stack
+Flutter
+Corona SDK / Phaser
+RESTful API / GraphQL
+HTML5 / CSS3 / LESS / SASS
+Bootstrap, Flexbox
+Npm
+Webpack, Gulp, Gru","Hi there,
+
+I came across your profile as Senior Front-End Angular UI Developer with 10 years of experience.
+Your background in JavaScript, Node.js, MongoDB is exactly what caught my attention.
+In particular, this line stood out: ""I’m a JavaScript/TypeScript Full Stack web developer with 10+ years of commercial experience and a Co-founder in a startup with several active clients"".
+
+We are hiring for a Full Stack Developer (BE = 70%).
+The role needs strong JavaScript, Node.js, MongoDB, Angular.
+You mentioned you are looking for ""Long-Term & Full Time"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,3.0,0.7875,0.9293,,,True,"Hi there,
+
+I came across your profile as Senior Front-End Angular UI Developer with 10 years of experience.
+Your background in JavaScript, Node.js, MongoDB is exactly what caught my attention.
+In particular, this line stood out: ""I’m a JavaScript/TypeScript Full Stack web developer with 10+ years of commercial experience and a Co-founder in a startup with several active clients"".
+
+We are hiring for a Full Stack Developer (BE = 70%).
+The role needs strong JavaScript, Node.js, MongoDB, Angular.
+You mentioned you are looking for ""Long-Term & Full Time"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,2,3.0
+610588d1-11cf-58d0-947a-c8e3fa87e6b9,Junior QA Manual,"{""title"":""Junior QA Manual"",""role"":""QA"",""must_have_skills"":[""Jira"",""Azure"",""Agile"",""Scrum""],""nice_to_have_skills"":[""API Testing""],""min_years"":0.0,""seniority"":""junior"",""english_level"":""upper"",""domain"":""travel""}",f33a4527-d58f-570b-b845-9bc94a4043df,Manual QA Engineer / QA Lead,9.0,upper,,"Professional Skills & Knowledge:
+    • Extensive experience in manual testing (black-box, gray-box testing)
+    • Experience in leading QA team (up to 4 members)
+    • Planning test activities and results evaluation
+    • Creation of tasks for QA team, providing support with complex tasks,  balancing of workload 
+    • Creating\ maintaining test documentation and preservation of it’s integrity and consistency 
+    • Providing detailed and effective reports
+    • Experience in testing web, mobile and desktop applications;
+    • Hands on experience in cross-platform testing
+    • Experience in Agile development process, understanding of Scrum methodology
+    • Strong knowledge of testing processes and different testing methodologies
+    • Hands on experience with various utilities for testin","Hi there,
+
+I came across your profile as Manual QA Engineer / QA Lead with 9 years of experience.
+Your background in Jira, Azure, Agile is exactly what caught my attention.
+In particular, this line stood out: ""Jira, Redmine, Mantis, Bugzilla, Asana, Azure DevOps"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",No Fit,2.0,0.55,0.0,,,False,"Hi there,
+
+I came across your profile as Manual QA Engineer / QA Lead with 9 years of experience.
+Your background in Jira, Azure, Agile is exactly what caught my attention.
+In particular, this line stood out: ""Jira, Redmine, Mantis, Bugzilla, Asana, Azure DevOps"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",2.0,2,
+610588d1-11cf-58d0-947a-c8e3fa87e6b9,Junior QA Manual,"{""title"":""Junior QA Manual"",""role"":""QA"",""must_have_skills"":[""Jira"",""Azure"",""Agile"",""Scrum""],""nice_to_have_skills"":[""API Testing""],""min_years"":0.0,""seniority"":""junior"",""english_level"":""upper"",""domain"":""travel""}",619afd24-ddcb-5856-b723-bfd4b8142645,Sr. QA Test Engineer/QA Manager,6.0,upper,,"• 2 Master's Degrees (in Engineering and Management);
+• Was involved in 7 international projects, including Startup and global organizations.
+Proactive Senior QA Test Engineer with 6+ years of experience in Web and Mobile apps testing, and 3+ years of experience in people management, working in a fast-paced, an Agile environment.
+
+Skills include:
+•  SDLC, Agile methodologies (Scrum, Kanban);
+•  Analysis of requirements, specifications, and clarification of  acceptance criteria;
+•  Developing QA processes, test plans, estimation, test strategies, and testing activities;
+•  QA, Manual and Automation testing;
+•  Web and Mobile apps testing, including:
+Functional, Non-functional, Regression, Exploratory, System, Black-Box, Performance, Usability, Localization, Smoke, Ad-hoc, Acceptance, Cross-","Hi there,
+
+I came across your profile as Sr. QA Test Engineer/QA Manager with 6 years of experience.
+Your background in Jira, Agile, Scrum is exactly what caught my attention.
+In particular, this line stood out: ""Test management, bug tracking and testing tools, including  Confluence, JIRA, Git, Slack, Trello, TestLink, Postman, TestRail, PractiTest, Google DevTools;"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",No Fit,2.0,0.4875,0.0,,,False,"Hi there,
+
+I came across your profile as Sr. QA Test Engineer/QA Manager with 6 years of experience.
+Your background in Jira, Agile, Scrum is exactly what caught my attention.
+In particular, this line stood out: ""Test management, bug tracking and testing tools, including  Confluence, JIRA, Git, Slack, Trello, TestLink, Postman, TestRail, PractiTest, Google DevTools;"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",2.0,2,
+610588d1-11cf-58d0-947a-c8e3fa87e6b9,Junior QA Manual,"{""title"":""Junior QA Manual"",""role"":""QA"",""must_have_skills"":[""Jira"",""Azure"",""Agile"",""Scrum""],""nice_to_have_skills"":[""API Testing""],""min_years"":0.0,""seniority"":""junior"",""english_level"":""upper"",""domain"":""travel""}",577125c7-dd60-5530-b8a9-0434f6132614,"QA/QC Tech Lead, Senior QA, General QA, Automation",11.0,upper,"Leaning new technologies, gathering/improving Automation experience, Performance&Security testing experience; leading QA team, performing release planning activities and improving QA and the whole processes.","- Establishing and optimizing QA and the whole processes on different projects; 
+- Documenting QA process;
+- Integrating Automation testing into Manual QA process;
+- Imroving Automation QA process;
+- Estimating and planning Testing activities on various projects.
+QA engineer with over 14 years of experience is looking for a new opportunity. With strong managerial and problem-solving skills, Alexey specializes in functional, regression, API, automation, database, and integration testing for web and desktop applications. He is a self-motivated, result-oriented, and disciplined quick learner who leads with initiative and a high sense of responsibility. 
+Skills:
+- Test Types: automation, add-hoc, functional, regression, compatibility, smoke, integration, usability, black/grey box testing
+- Tes","Hi there,
+
+I came across your profile as QA/QC Tech Lead, Senior QA, General QA, Automation with 10+ years of experience.
+Your background in Jira, Azure, Agile is exactly what caught my attention.
+In particular, this line stood out: ""Test Case Management: TestRail, Jira, Azure DevOps"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+You mentioned you are looking for ""Leaning new technologies, gathering/improving Automation experience, Performance&Security testing experience; leading QA team, performing…"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",No Fit,2.0,0.6,0.0,,,False,"Hi there,
+
+I came across your profile as QA/QC Tech Lead, Senior QA, General QA, Automation with 10+ years of experience.
+Your background in Jira, Azure, Agile is exactly what caught my attention.
+In particular, this line stood out: ""Test Case Management: TestRail, Jira, Azure DevOps"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+You mentioned you are looking for ""Leaning new technologies, gathering/improving Automation experience, Performance&Security testing experience; leading QA team, performing…"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",2.0,2,
+5edffc0a-3672-5079-867d-c30b48890429,Support Engineer,"{""title"":""Support Engineer"",""role"":""Support"",""must_have_skills"":[""CRM"",""Jira""],""nice_to_have_skills"":[],""min_years"":0.0,""seniority"":""unknown"",""english_level"":""intermediate"",""domain"":null}",52442b63-37fd-5385-b9da-0264d51b2c8e,Customer Success Manager,4.0,fluent,Please do not suggest a Sales Manager position.,"I am a versatile and accomplished professional with a proven track record of success across multiple roles.
+
+Key Highlights:
+
+- Exceptional communicator with a talent for collaborating seamlessly with diverse teams.
+- Proficient in crafting professional internal and external communications, enhancing the organization's image and efficiency.
+- Skilled at effectively liaising with both staff and clients at all levels.
+
+Summary:
+
+I am a dedicated and results-driven professional. My expertise in quality assurance, customer service, and customer success management, coupled with outstanding organizational and communication skills, makes me a valuable addition to any team or organization.
+Customer Success Manager | 02/2022 – till now
+
+- Managed incoming and outgoing chats and emails to address us","Hi there,
+
+I came across your profile as Customer Success Manager with 4 years of experience.
+Your background in CRM is exactly what caught my attention.
+In particular, this line stood out: ""Managed and maintained CRM systems to track customer interactions and issues"".
+
+We are hiring for a Support Engineer.
+The role needs strong CRM, Jira.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,3.0,0.65,0.899,,,True,"Hi there,
+
+I came across your profile as Customer Success Manager with 4 years of experience.
+Your background in CRM is exactly what caught my attention.
+In particular, this line stood out: ""Managed and maintained CRM systems to track customer interactions and issues"".
+
+We are hiring for a Support Engineer.
+The role needs strong CRM, Jira.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,2,3.0
+610588d1-11cf-58d0-947a-c8e3fa87e6b9,Junior QA Manual,"{""title"":""Junior QA Manual"",""role"":""QA"",""must_have_skills"":[""Jira"",""Azure"",""Agile"",""Scrum""],""nice_to_have_skills"":[""API Testing""],""min_years"":0.0,""seniority"":""junior"",""english_level"":""upper"",""domain"":""travel""}",5c35acbf-6433-5581-ac1a-cda7066b91f7,QA Engineer,2.0,fluent,Team Work,"I Fulfill many Projects in the UK, As a Software Test Analyst at Sky scanner Software Metro Bank and UK largest Communication Company in the UK and the Republic Of Ireland, 
+Responsible for weekly status meetings showing progress and future testing efforts to the QA Manager  
+Scheduled test plans, and created and maintained test results and status reports. ETC
+Strong knowledge of any of SQL Dialects: Microsoft SQL/My SQL etc.
+Experience working in a SaaS and cloud product development team.
+An experienced manual tester with expertise in both functional and non-functional testing (compatibility & user experience testing).
+Solid understanding of using troubleshooting tools like dev tools to analyse web application errors.
+Solid experience in testing Restful API’s using tools like Postman.
+Abi","Hi there,
+
+I came across your profile as QA Engineer with 2 years of experience.
+Your background in Jira, Agile is exactly what caught my attention.
+In particular, this line stood out: ""Experience raising defects in Jira is essential"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,3.0,0.5375,0.9185,,,True,"Hi there,
+
+I came across your profile as QA Engineer with 2 years of experience.
+Your background in Jira, Agile is exactly what caught my attention.
+In particular, this line stood out: ""Experience raising defects in Jira is essential"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,3,1.0
+610588d1-11cf-58d0-947a-c8e3fa87e6b9,Junior QA Manual,"{""title"":""Junior QA Manual"",""role"":""QA"",""must_have_skills"":[""Jira"",""Azure"",""Agile"",""Scrum""],""nice_to_have_skills"":[""API Testing""],""min_years"":0.0,""seniority"":""junior"",""english_level"":""upper"",""domain"":""travel""}",1f7d3b6d-460e-575e-8061-929dfa72244c,QA Engineer,4.0,fluent,,"Achievements:
+1.	Improved test coverage of the product by 30% with well-structured test cases and checklists using Azure Test Plans. Authored over 150
+test cases with a 95% approval rating.
+2.	Mentored 3 QA Engineers from junior to middle, without losing overall team performance.
+3.	Implemented an effective testing approach by conducting quick feature testing on the developer’s machine before code commits, enabling the detection of defects early in the development lifecycle, resulting reduce defect leakage by 40%.
+4.	Implemented knowledge base, resulting in a 20% reduction in onboarding time for new team members.
+5.	Cooperated with the DevOps team to implement the pipeline using Azure Pipelines, reducing environment setup and time by 50%.
+6.	Improved Web API testing proficiency within the ","Hi there,
+
+I came across your profile as QA Engineer with 4 years of experience.
+Your background in Azure, Agile, API Testing is exactly what caught my attention.
+In particular, this line stood out: ""Improved test coverage of the product by 30% with well-structured test cases and checklists using Azure Test Plans"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Potential Fit,3.0,0.625,0.8117,,,True,"Hi there,
+
+I came across your profile as QA Engineer with 4 years of experience.
+Your background in Azure, Agile, API Testing is exactly what caught my attention.
+In particular, this line stood out: ""Improved test coverage of the product by 30% with well-structured test cases and checklists using Azure Test Plans"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,3,2.0
+610588d1-11cf-58d0-947a-c8e3fa87e6b9,Junior QA Manual,"{""title"":""Junior QA Manual"",""role"":""QA"",""must_have_skills"":[""Jira"",""Azure"",""Agile"",""Scrum""],""nice_to_have_skills"":[""API Testing""],""min_years"":0.0,""seniority"":""junior"",""english_level"":""upper"",""domain"":""travel""}",93f77144-d61e-5e88-b82c-58764b3689c1,Automation QA Engineer,2.0,upper,"Career development, professional team, and growth as an automation QA or Front-End developer.","Understanding of Agile methodologies (Scrum); knowledge of the QA methodologies and approaches; experience in writing the test documentation; understanding of the test design techniques; practical experience in testing Web, Desktop, and Mobile Apps; creating automated tests using JavaScrıpt (Cypress framework); familiarity with bug tracking system (Jira) and management tool (TestRail); basic experience in Web API testing using Postman.
+I have an understanding of quality assurance processes, approaches, methodologies, and testing methods. Have a nice experience creating automated tests using JavaScript.
+The project consists of a website, mobile, and desktop applications for privacy and security services.
+Experience in testing according to Agile and Scrum methodologies.
+Career development, p","Hi there,
+
+I came across your profile as Automation QA Engineer with 2 years of experience.
+Your background in Jira, Agile, Scrum is exactly what caught my attention.
+In particular, this line stood out: ""; familiarity with bug tracking system (Jira) and management tool (TestRail); basic experience in Web API testing using Postman"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+You mentioned you are looking for ""Career development, professional team, and growth as an automation QA or Front-End developer"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",Good Fit,3.0,0.675,0.8014,,,True,"Hi there,
+
+I came across your profile as Automation QA Engineer with 2 years of experience.
+Your background in Jira, Agile, Scrum is exactly what caught my attention.
+In particular, this line stood out: ""; familiarity with bug tracking system (Jira) and management tool (TestRail); basic experience in Web API testing using Postman"".
+
+We are hiring for a Junior QA Manual.
+The role needs strong Jira, Azure, Agile, Scrum.
+You mentioned you are looking for ""Career development, professional team, and growth as an automation QA or Front-End developer"", so I think this could be a good match.
+
+Would you be open to a short 15-minute call this week to talk it through?
+
+Best regards",3.0,3,3.0

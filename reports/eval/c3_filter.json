@@ -1,0 +1,162 @@
+{
+  "component": "c3_filter",
+  "date": "2026-11-15",
+  "llm_enabled": false,
+  "llm_model": null,
+  "baseline_precision": 0.5128,
+  "rows": [
+    {
+      "must_have_coverage": 1.0,
+      "role_rule": false,
+      "kept_share": 0.1927,
+      "good_recall": 0.1266,
+      "good_or_potential_recall": 0.194,
+      "no_fit_removed": 0.8086,
+      "precision_of_kept": 0.5162,
+      "rejection_reasons": {
+        "must-have": 1390,
+        "over-qualified": 29,
+        "years": 226
+      }
+    },
+    {
+      "must_have_coverage": 0.75,
+      "role_rule": false,
+      "kept_share": 0.2183,
+      "good_recall": 0.1572,
+      "good_or_potential_recall": 0.2239,
+      "no_fit_removed": 0.7876,
+      "precision_of_kept": 0.526,
+      "rejection_reasons": {
+        "must-have": 1337,
+        "over-qualified": 29,
+        "years": 226
+      }
+    },
+    {
+      "must_have_coverage": 0.5,
+      "role_rule": false,
+      "kept_share": 0.3047,
+      "good_recall": 0.2686,
+      "good_or_potential_recall": 0.3193,
+      "no_fit_removed": 0.7106,
+      "precision_of_kept": 0.5373,
+      "rejection_reasons": {
+        "must-have": 1146,
+        "over-qualified": 29,
+        "years": 226
+      }
+    },
+    {
+      "must_have_coverage": 0.25,
+      "role_rule": false,
+      "kept_share": 0.4315,
+      "good_recall": 0.4367,
+      "good_or_potential_recall": 0.4634,
+      "no_fit_removed": 0.6021,
+      "precision_of_kept": 0.5507,
+      "rejection_reasons": {
+        "must-have": 868,
+        "over-qualified": 29,
+        "years": 226
+      }
+    },
+    {
+      "must_have_coverage": 0.0,
+      "role_rule": false,
+      "kept_share": 0.8687,
+      "good_recall": 0.8777,
+      "good_or_potential_recall": 0.8914,
+      "no_fit_removed": 0.1552,
+      "precision_of_kept": 0.5262,
+      "rejection_reasons": {
+        "over-qualified": 29,
+        "years": 226
+      }
+    },
+    {
+      "must_have_coverage": 1.0,
+      "role_rule": true,
+      "kept_share": 0.1694,
+      "good_recall": 0.1135,
+      "good_or_potential_recall": 0.1752,
+      "no_fit_removed": 0.8366,
+      "precision_of_kept": 0.5302,
+      "rejection_reasons": {
+        "must-have": 1390,
+        "role": 628,
+        "over-qualified": 29,
+        "years": 226
+      }
+    },
+    {
+      "must_have_coverage": 0.75,
+      "role_rule": true,
+      "kept_share": 0.1814,
+      "good_recall": 0.1332,
+      "good_or_potential_recall": 0.194,
+      "no_fit_removed": 0.832,
+      "precision_of_kept": 0.5486,
+      "rejection_reasons": {
+        "must-have": 1337,
+        "role": 628,
+        "over-qualified": 29,
+        "years": 226
+      }
+    },
+    {
+      "must_have_coverage": 0.5,
+      "role_rule": true,
+      "kept_share": 0.2126,
+      "good_recall": 0.1616,
+      "good_or_potential_recall": 0.2239,
+      "no_fit_removed": 0.7993,
+      "precision_of_kept": 0.5401,
+      "rejection_reasons": {
+        "must-have": 1146,
+        "role": 628,
+        "over-qualified": 29,
+        "years": 226
+      }
+    },
+    {
+      "must_have_coverage": 0.25,
+      "role_rule": true,
+      "kept_share": 0.274,
+      "good_recall": 0.2445,
+      "good_or_potential_recall": 0.2949,
+      "no_fit_removed": 0.748,
+      "precision_of_kept": 0.5519,
+      "rejection_reasons": {
+        "must-have": 868,
+        "role": 628,
+        "over-qualified": 29,
+        "years": 226
+      }
+    },
+    {
+      "must_have_coverage": 0.0,
+      "role_rule": true,
+      "kept_share": 0.5719,
+      "good_recall": 0.5262,
+      "good_or_potential_recall": 0.551,
+      "no_fit_removed": 0.4061,
+      "precision_of_kept": 0.494,
+      "rejection_reasons": {
+        "role": 628,
+        "over-qualified": 29,
+        "years": 226
+      }
+    }
+  ],
+  "must_have_counts": {
+    "0": 15,
+    "6": 16,
+    "1": 18,
+    "3": 8,
+    "2": 5,
+    "4": 6,
+    "5": 3
+  },
+  "config_default_coverage": 1.0
+}

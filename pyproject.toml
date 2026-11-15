@@ -1,0 +1,14 @@
+[tool.ruff]
+line-length = 130
+target-version = "py311"
+extend-exclude = [".claude/skills/data-understanding/scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501", "B905"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["recruiter", "common", "fit_data"]
+
+[tool.pytest.ini_options]
+filterwarnings = ["ignore::DeprecationWarning"]

@@ -1,0 +1,67 @@
+# ---------- Project data (CLAUDE.md §4, §11) ----------
+# Raw downloads and derived artefacts are reproducible via scripts/; never commit them.
+data/raw/
+data/processed/
+# data/eval/ (small hand-made gold sets) IS committed.
+*.zip
+
+# ---------- Secrets ----------
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ---------- Claude Code ----------
+# Project skills and settings.json are shared; personal overrides are not.
+.claude/settings.local.json
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+# virtual environments
+.venv/
+venv/
+env/
+ENV/
+# test / lint / type-check caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+# notebooks (outputs must be cleared before commit, CLAUDE.md §10)
+.ipynb_checkpoints/
+# profiling / logs
+*.prof
+*.log
+
+# ---------- VS Code ----------
+.vscode/
+*.code-workspace
+.history/
+
+# ---------- macOS ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+private/

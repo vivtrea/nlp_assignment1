@@ -1,0 +1,168 @@
+{
+  "test": {
+    "rows": 1759,
+    "columns": [
+      "resume_text",
+      "job_description_text",
+      "label"
+    ],
+    "dtypes": {
+      "resume_text": "object",
+      "job_description_text": "object",
+      "label": "object"
+    },
+    "kinds": {
+      "resume_text": "text",
+      "job_description_text": "text",
+      "label": "categorical"
+    },
+    "nulls": {
+      "resume_text": 0,
+      "job_description_text": 0,
+      "label": 0
+    },
+    "empty_strings": {
+      "resume_text": 0,
+      "job_description_text": 0,
+      "label": 0
+    },
+    "duplicate_rows": 0,
+    "text": {
+      "resume_text": {
+        "chars": {
+          "count": 1759.0,
+          "mean": 5663.3,
+          "std": 2841.0,
+          "min": 897.0,
+          "5%": 2277.2,
+          "25%": 4234.0,
+          "50%": 5080.0,
+          "75%": 6440.0,
+          "95%": 11223.3,
+          "max": 25364.0
+        },
+        "words_median": 618.0,
+        "short_lt_50_chars": 0,
+        "duplicate_values": 1282,
+        "language_sample_300": {
+          "en": 300
+        }
+      },
+      "job_description_text": {
+        "chars": {
+          "count": 1759.0,
+          "mean": 2939.2,
+          "std": 1971.1,
+          "min": 238.0,
+          "5%": 347.0,
+          "25%": 1386.0,
+          "50%": 2401.0,
+          "75%": 4273.0,
+          "95%": 6614.0,
+          "max": 8171.0
+        },
+        "words_median": 308.0,
+        "short_lt_50_chars": 0,
+        "duplicate_values": 1688,
+        "language_sample_300": {
+          "en": 300
+        }
+      }
+    },
+    "categorical": {
+      "label": {
+        "n_unique": 3,
+        "top": {
+          "No Fit": 857,
+          "Good Fit": 458,
+          "Potential Fit": 444
+        },
+        "imbalance_ratio_max_min": 1.9301801801801801
+      }
+    },
+    "numeric": {}
+  },
+  "train": {
+    "rows": 6241,
+    "columns": [
+      "resume_text",
+      "job_description_text",
+      "label"
+    ],
+    "dtypes": {
+      "resume_text": "object",
+      "job_description_text": "object",
+      "label": "object"
+    },
+    "kinds": {
+      "resume_text": "text",
+      "job_description_text": "text",
+      "label": "categorical"
+    },
+    "nulls": {
+      "resume_text": 0,
+      "job_description_text": 0,
+      "label": 0
+    },
+    "empty_strings": {
+      "resume_text": 0,
+      "job_description_text": 0,
+      "label": 0
+    },
+    "duplicate_rows": 1,
+    "text": {
+      "resume_text": {
+        "chars": {
+          "count": 6241.0,
+          "mean": 5804.4,
+          "std": 2989.8,
+          "min": 897.0,
+          "5%": 2287.0,
+          "25%": 4234.0,
+          "50%": 5134.0,
+          "75%": 6608.0,
+          "95%": 12367.0,
+          "max": 25364.0
+        },
+        "words_median": 618.0,
+        "short_lt_50_chars": 0,
+        "duplicate_values": 5599,
+        "language_sample_300": {
+          "en": 300
+        }
+      },
+      "job_description_text": {
+        "chars": {
+          "count": 6241.0,
+          "mean": 2731.3,
+          "std": 1716.1,
+          "min": 72.0,
+          "5%": 513.0,
+          "25%": 1231.0,
+          "50%": 2384.0,
+          "75%": 3941.0,
+          "95%": 5954.0,
+          "max": 7669.0
+        },
+        "words_median": 328.0,
+        "short_lt_50_chars": 0,
+        "duplicate_values": 5961,
+        "language_sample_300": {
+          "en": 300
+        }
+      }
+    },
+    "categorical": {
+      "label": {
+        "n_unique": 3,
+        "top": {
+          "No Fit": 3143,
+          "Potential Fit": 1556,
+          "Good Fit": 1542
+        },
+        "imbalance_ratio_max_min": 2.038261997405966
+      }
+    },
+    "numeric": {}
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "component": "c2_profiles",
+  "date": "2026-11-15",
+  "llm_enabled": false,
+  "llm_model": null,
+  "ner": {
+    "n_docs": 500,
+    "gold_unique_per_doc_mean": 102.11,
+    "gold_share_known_tech_skills": 0.02,
+    "rows": [
+      {
+        "system": "lexicon (ours)",
+        "gold": "all",
+        "precision": 0.9483,
+        "recall": 0.0144,
+        "f1": 0.0283,
+        "tp": 734,
+        "fp": 40,
+        "fn": 50321
+      },
+      {
+        "system": "lexicon (ours)",
+        "gold": "known",
+        "precision": 0.9483,
+        "recall": 0.7203,
+        "f1": 0.8187,
+        "tp": 734,
+        "fp": 40,
+        "fn": 285
+      },
+      {
+        "system": "gazetteer from other 4,529 gold CVs (baseline)",
+        "gold": "all",
+        "precision": 0.9981,
+        "recall": 0.9139,
+        "f1": 0.9541,
+        "tp": 46657,
+        "fp": 91,
+        "fn": 4398
+      },
+      {
+        "system": "gazetteer from other 4,529 gold CVs (baseline)",
+        "gold": "known",
+        "precision": 0.9976,
+        "recall": 0.8273,
+        "f1": 0.9045,
+        "tp": 843,
+        "fp": 2,
+        "fn": 176
+      }
+    ],
+    "top_missed_gold": [
+      [
+        "com",
+        394
+      ],
+      [
+        "skills",
+        381
+      ],
+      [
+        "work",
+        374
+      ],
+      [
+        "english",
+        359
+      ],
+      [
+        "personal",
+        359
+      ],
+      [
+        "knowledge",
+        340
+      ],
+      [
+        "gmail",
+        338
+      ],
+      [
+        "nationality",
+        287
+      ],
+      [
+        "hindi",
+        274
+      ],
+      [
+        "project",
+        272
+      ],
+      [
+        "information",
+        270
+      ],
+      [
+        "technical",
+        268
+      ],
+      [
+        "professional",
+        265
+      ],
+      [
+        "company",
+        253
+      ],
+      [
+        "languages",
+        244
+      ],
+      [
+        "team",
+        242
+      ],
+      [
+        "management",
+        242
+      ],
+      [
+        "is",
+        239
+      ],
+      [
+        "marital status",
+        237
+      ],
+      [
+        "office",
+        237
+      ],
+      [
+        "organization",
+        233
+      ],
+      [
+        "engineering",
+        233
+      ],
+      [
+        "system",
+        230
+      ],
+      [
+        "c",
+        225
+      ],
+      [
+        "college",
+        223
+      ]
+    ],
+    "top_false_positives": [
+      [
+        "c++",
+        28
+      ],
+      [
+        "c#",
+        7
+      ],
+      [
+        "ts",
+        2
+      ],
+      [
+        ".net",
+        2
+      ],
+      [
+        "headhunting",
+        1
+      ]
+    ]
+  },
+  "fields_from_text": {
+    "n": 1000,
+    "years_coverage": 0.291,
+    "years_mae_when_found": 1.656,
+    "years_within_1_when_found": 0.6942,
+    "english_coverage": 0.0513,
+    "english_acc_when_found": 0.8039
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "component": "c1_requirements",
+  "date": "2026-11-15",
+  "llm_enabled": false,
+  "llm_model": null,
+  "dialogues": [
+    {
+      "extractor": "rules (baseline)",
+      "set": "dev (used for tuning)",
+      "n_dialogues": 30,
+      "completion_rate": 1.0,
+      "mean_turns": 3.3,
+      "mean_extra_turns": -0.067,
+      "acc_role": 1.0,
+      "acc_min_years": 1.0,
+      "acc_english_level": 1.0,
+      "acc_seniority": 1.0,
+      "must_have": {
+        "precision": 0.9535,
+        "recall": 0.9762,
+        "f1": 0.9647,
+        "tp": 82,
+        "fp": 4,
+        "fn": 2
+      },
+      "nice_to_have": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 8,
+        "fp": 0,
+        "fn": 0
+      },
+      "skills_any_bucket": {
+        "precision": 0.9574,
+        "recall": 0.9783,
+        "f1": 0.9677,
+        "tp": 90,
+        "fp": 4,
+        "fn": 2
+      },
+      "errors": [
+        {
+          "id": "d10",
+          "slot": "must",
+          "gold": [
+            "Swift"
+          ],
+          "pred": [
+            "Swift",
+            "iOS"
+          ]
+        },
+        {
+          "id": "d15",
+          "slot": "must",
+          "gold": [
+            "Laravel",
+            "MySQL"
+          ],
+          "pred": [
+            "Laravel",
+            "MySQL",
+            "PHP"
+          ]
+        },
+        {
+          "id": "d17",
+          "slot": "must",
+          "gold": [
+            "Kotlin"
+          ],
+          "pred": [
+            "Android",
+            "Kotlin"
+          ]
+        },
+        {
+          "id": "d24",
+          "slot": "must",
+          "gold": [
+            "Node.js",
+            "Vue.js"
+          ],
+          "pred": [
+            "JavaScript",
+            "Node.js",
+            "Vue.js"
+          ]
+        },
+        {
+          "id": "d26",
+          "slot": "must",
+          "gold": [
+            "Pandas",
+            "Python",
+            "SQL",
+            "Tableau"
+          ],
+          "pred": [
+            "Pandas",
+            "Python"
+          ]
+        }
+      ],
+      "llm_fallback_rate": NaN
+    },
+    {
+      "extractor": "rules (baseline)",
+      "set": "held-out",
+      "n_dialogues": 20,
+      "completion_rate": 0.9,
+      "mean_turns": 3.9,
+      "mean_extra_turns": 0.3,
+      "acc_role": 0.95,
+      "acc_min_years": 0.9,
+      "acc_english_level": 0.9,
+      "acc_seniority": 0.95,
+      "must_have": {
+        "precision": 0.9455,
+        "recall": 0.9123,
+        "f1": 0.9286,
+        "tp": 52,
+        "fp": 3,
+        "fn": 5
+      },
+      "nice_to_have": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      "skills_any_bucket": {
+        "precision": 0.9474,
+        "recall": 0.9153,
+        "f1": 0.931,
+        "tp": 54,
+        "fp": 3,
+        "fn": 5
+      },
+      "errors": [
+        {
+          "id": "h02",
+          "slot": "min_years",
+          "gold": 1,
+          "pred": null
+        },
+        {
+          "id": "h02",
+          "slot": "english_level",
+          "gold": "intermediate",
+          "pred": null
+        },
+        {
+          "id": "h04",
+          "slot": "must",
+          "gold": [
+            "Computer Vision",
+            "PyTorch",
+            "Python"
+          ],
+          "pred": [
+            "Computer Vision",
+            "Machine Learning",
+            "PyTorch",
+            "Python"
+          ]
+        },
+        {
+          "id": "h09",
+          "slot": "role",
+          "gold": "JavaScript",
+          "pred": null
+        },
+        {
+          "id": "h09",
+          "slot": "min_years",
+          "gold": 2,
+          "pred": null
+        },
+        {
+          "id": "h09",
+          "slot": "english_level",
+          "gold": "intermediate",
+          "pred": null
+        },
+        {
+          "id": "h09",
+          "slot": "must",
+          "gold": [
+            "React Native",
+            "Redux",
+            "TypeScript"
+          ],
+          "pred": []
+        },
+        {
+          "id": "h10",
+          "slot": "must",
+          "gold": [
+            "Symfony"
+          ],
+          "pred": [
+            "PHP",
+            "Symfony"
+          ]
+        },
+        {
+          "id": "h12",
+          "slot": "seniority",
+          "gold": "unknown",
+          "pred": "lead"
+        },
+        {
+          "id": "h12",
+          "slot": "must",
+          "gold": [
+            "CRM",
+            "Lead Generation"
+          ],
+          "pred": [
+            "B2B Sales",
+            "Lead Generation"
+          ]
+        },
+        {
+          "id": "h19",
+          "slot": "must",
+          "gold": [
+            "Blockchain",
+            "Linux",
+            "Rust"
+          ],
+          "pred": [
+            "Blockchain",
+            "Rust"
+          ]
+        }
+      ],
+      "llm_fallback_rate": NaN
+    }
+  ],
+  "djinni_jobs": [
+    {
+      "extractor": "rules (baseline)",
+      "n_jobs": 200,
+      "role_acc": 0.675,
+      "role_acc_related": 0.75,
+      "role_coverage": 0.92,
+      "years_exact": 0.4,
+      "years_within_1": 0.64,
+      "years_mae": 1.558,
+      "years_coverage": 0.655,
+      "english_acc": 0.262,
+      "english_coverage": 0.4225,
+      "english_acc_when_stated": 0.6203,
+      "majority_baseline": {
+        "role": 0.125,
+        "years": 0.4,
+        "english": 0.5241
+      },
+      "llm_fallback_rate": NaN
+    }
+  ]
+}

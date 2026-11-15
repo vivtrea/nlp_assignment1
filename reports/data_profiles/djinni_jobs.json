@@ -1,0 +1,193 @@
+{
+  "train (sample 50000)": {
+    "rows": 50000,
+    "columns": [
+      "Position",
+      "Long Description",
+      "Company Name",
+      "Exp Years",
+      "Primary Keyword",
+      "English Level",
+      "Published",
+      "Long Description_lang",
+      "id",
+      "__index_level_0__"
+    ],
+    "dtypes": {
+      "Position": "object",
+      "Long Description": "object",
+      "Company Name": "object",
+      "Exp Years": "object",
+      "Primary Keyword": "object",
+      "English Level": "object",
+      "Published": "object",
+      "Long Description_lang": "object",
+      "id": "object",
+      "__index_level_0__": "int64"
+    },
+    "kinds": {
+      "Position": "id/short-string",
+      "Long Description": "text",
+      "Company Name": "id/short-string",
+      "Exp Years": "categorical",
+      "Primary Keyword": "categorical",
+      "English Level": "categorical",
+      "Published": "categorical",
+      "Long Description_lang": "categorical",
+      "id": "id/short-string",
+      "__index_level_0__": "numeric"
+    },
+    "nulls": {
+      "Position": 0,
+      "Long Description": 0,
+      "Company Name": 0,
+      "Exp Years": 0,
+      "Primary Keyword": 0,
+      "English Level": 2601,
+      "Published": 0,
+      "Long Description_lang": 0,
+      "id": 0,
+      "__index_level_0__": 0
+    },
+    "empty_strings": {
+      "Position": 0,
+      "Long Description": 0,
+      "Company Name": 0,
+      "Exp Years": 0,
+      "Primary Keyword": 0,
+      "English Level": 0,
+      "Published": 0,
+      "Long Description_lang": 0,
+      "id": 0
+    },
+    "duplicate_rows": 0,
+    "text": {
+      "Long Description": {
+        "chars": {
+          "count": 50000.0,
+          "mean": 1801.7,
+          "std": 978.6,
+          "min": 80.0,
+          "5%": 560.0,
+          "25%": 1106.0,
+          "50%": 1631.0,
+          "75%": 2288.2,
+          "95%": 3651.0,
+          "max": 10779.0
+        },
+        "words_median": 234.0,
+        "short_lt_50_chars": 0,
+        "duplicate_values": 0,
+        "language_sample_300": {
+          "en": 300
+        }
+      }
+    },
+    "categorical": {
+      "Exp Years": {
+        "n_unique": 5,
+        "top": {
+          "3y": 17701,
+          "2y": 12715,
+          "5y": 9655,
+          "1y": 7774,
+          "no_exp": 2155
+        },
+        "imbalance_ratio_max_min": 8.213921113689095
+      },
+      "Primary Keyword": {
+        "n_unique": 43,
+        "top": {
+          "JavaScript": 6292,
+          "Java": 3083,
+          ".NET": 2721,
+          "DevOps": 2717,
+          "Other": 2658,
+          "QA Automation": 2518,
+          "Marketing": 2416,
+          "QA": 2358,
+          "Node.js": 2269,
+          "PHP": 2000,
+          "Python": 1968,
+          "Project Manager": 1637,
+          "HR": 1441,
+          "Sales": 1437,
+          "Design": 1424,
+          "C++": 1371,
+          "Business Analyst": 1344,
+          "Support": 1017,
+          "Android": 928,
+          "iOS": 881,
+          "Data Science": 811,
+          "Product Manager": 692,
+          "Ruby": 663,
+          "Lead": 648,
+          "Golang": 610
+        },
+        "imbalance_ratio_max_min": 6292.0
+      },
+      "English Level": {
+        "n_unique": 5,
+        "top": {
+          "upper": 23517,
+          "intermediate": 19470,
+          "fluent": 3744,
+          "None": 2601,
+          "pre": 590,
+          "basic": 78
+        },
+        "imbalance_ratio_max_min": 301.5
+      },
+      "Published": {
+        "n_unique": 45,
+        "top": {
+          "2022-01-01T00:00:00+02:00": 1936,
+          "2022-02-01T00:00:00+02:00": 1714,
+          "2021-11-01T00:00:00+02:00": 1693,
+          "2021-10-01T00:00:00+03:00": 1569,
+          "2021-09-01T00:00:00+03:00": 1549,
+          "2021-08-01T00:00:00+03:00": 1478,
+          "2022-05-01T00:00:00+03:00": 1451,
+          "2022-06-01T00:00:00+03:00": 1444,
+          "2022-04-01T00:00:00+03:00": 1402,
+          "2021-03-01T00:00:00+02:00": 1389,
+          "2022-03-01T00:00:00+02:00": 1389,
+          "2021-07-01T00:00:00+03:00": 1374,
+          "2022-09-01T00:00:00+03:00": 1347,
+          "2022-07-01T00:00:00+03:00": 1320,
+          "2022-08-01T00:00:00+03:00": 1312,
+          "2021-06-01T00:00:00+03:00": 1309,
+          "2021-05-01T00:00:00+03:00": 1308,
+          "2021-12-01T00:00:00+02:00": 1292,
+          "2022-10-01T00:00:00+03:00": 1276,
+          "2021-04-01T00:00:00+03:00": 1249,
+          "2022-11-01T00:00:00+02:00": 1208,
+          "2021-02-01T00:00:00+02:00": 1158,
+          "2023-03-01T00:00:00+02:00": 1157,
+          "2021-01-01T00:00:00+02:00": 1154,
+          "2023-01-01T00:00:00+02:00": 1140
+        },
+        "imbalance_ratio_max_min": 4.852130325814536
+      },
+      "Long Description_lang": {
+        "n_unique": 1,
+        "top": {
+          "en": 50000
+        },
+        "imbalance_ratio_max_min": 1.0
+      }
+    },
+    "numeric": {
+      "__index_level_0__": {
+        "count": 50000.0,
+        "mean": 98384.132,
+        "std": 40942.612,
+        "min": 27461.0,
+        "25%": 62918.5,
+        "50%": 98452.5,
+        "75%": 133957.75,
+        "max": 169352.0
+      }
+    }
+  }
+}

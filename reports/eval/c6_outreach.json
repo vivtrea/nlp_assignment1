@@ -1,0 +1,52 @@
+{
+  "component": "c6_outreach",
+  "date": "2026-11-15",
+  "llm_enabled": false,
+  "llm_model": null,
+  "summary": [
+    {
+      "writer": "template (baseline)",
+      "messages": 59,
+      "faithful (0 unsupported)": 1.0,
+      "claims checked / msg": 7.8305,
+      "verified personal facts / msg": 5.339,
+      "length in range": 1.0,
+      "mean chars": 530.7458,
+      "CTA present": 1.0,
+      "same-job trigram Jaccard (lower=better)": 0.4586,
+      "fell back to template": NaN
+    }
+  ],
+  "verifier": [
+    {
+      "injected claim": "fake skill",
+      "n": 59,
+      "detected (recall)": 1.0
+    },
+    {
+      "injected claim": "wrong years",
+      "n": 59,
+      "detected (recall)": 0.8814
+    },
+    {
+      "injected claim": "fake quote",
+      "n": 59,
+      "detected (recall)": 1.0
+    },
+    {
+      "injected claim": "fake domain",
+      "n": 59,
+      "detected (recall)": 1.0
+    },
+    {
+      "injected claim": "none (clean message) \u2192 false-positive rate",
+      "n": 59,
+      "detected (recall)": 0.0
+    }
+  ],
+  "judge": [],
+  "examples": [
+    "Hi there,\n\nI came across your profile as UI/UX DESIGNER with 4 years of experience.\nYour background in Figma, UI/UX, CSS is exactly what caught my attention.\nIn particular, this line stood out: \"Familiarity: I design conventional layouts and ensure they seem less complex to users just because they\u2019re familiar\".\n\nWe are hiring for a Trainee Visual / Interaction Designer.\nThe role needs strong Figma, UI/UX.\n\nWould you be open to a short 15-minute call this week to talk it through?\n\nBest regards",
+    "Hi there,\n\nI came across your profile as UI/UX Designer with 1.5 years of experience.\nYour background in Figma, UI/UX, Agile is exactly what caught my attention.\nIn particular, this line stood out: \"Interactive wireframing in Axure and Figma;\".\n\nWe are hiring for a Trainee Visual / Interaction Designer.\nThe role needs strong Figma, UI/UX.\nYou mentioned you are looking for \"I am looking for a design team who creates modern solutions, close collaboration with the development team, active participation in\u2026\", so I think this could be a good match.\n\nWould you be open to a short 15-minute call this week to talk it through?\n\nBest regards"
+  ]
+}
